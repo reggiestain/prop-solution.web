@@ -19,20 +19,20 @@ use Cake\Datasource\ConnectionManager;
 use Cake\Error\Debugger;
 use Cake\Network\Exception\NotFoundException;
 ?>
+<?php 
+if($blocked === 'blocked'){
+   echo 'blocked';
+}
+if($admin === 'admin'){
+   echo 'admin';
+}
+if($super === 'super'){
+   echo 'super';
+}
+if($error === 'error'){
+   echo 'loginerror';
+}
 
-<?php
+                   
+?>                    
 
-if($exist === 'appregistered'){
-  echo 'alreadyregistered';  
-}
-if($true === 'successfull'){
-   echo '<div class="alert alert-success"><strong>Success!</strong> Your account has been created successfully! Please check your email for activation. '
-      . 'If you do not receive an activation email, please check your spam/junk folder or contact us at support@propsolution.co.za .</div>'; 
-}
-if($false === 'failed'){
-   echo '<div class="alert alert-danger"><strong>Error!</strong> An error occured please, try again.</div>';  
-}
-if($exist === 'registered'){
-    echo'<div class="alert alert-warning">This email address has already been registered, please enter a different email address.</div>';
-}
-?>

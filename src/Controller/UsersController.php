@@ -72,6 +72,12 @@ class UsersController extends AppController {
 
     public function beforeFilter(\Cake\Event\Event $event) {
         parent::beforeFilter($event);
+        $this->response->header('Access-Control-Allow-Origin', '*');
+        $this->response->header('Access-Control-Allow-Methods', '*');
+        $this->response->header('Access-Control-Allow-Headers', 'X-Requested-With');
+        $this->response->header('Access-Control-Allow-Headers', 'Content-Type, x-xsrf-token');
+        $this->response->header('Access-Control-Max-Age', '172800');
+
         $this->UsersTable = TableRegistry::get('users');
         $this->ProfilesTable = TableRegistry::get('profiles');
         $this->DRequestsTable = TableRegistry::get('requests');
@@ -97,6 +103,26 @@ class UsersController extends AppController {
         $this->layout = 'index';
     }
 
+    public function applogin() {
+        if ($this->request->is('ajax')) {
+            if ($this->request->is('post')) {
+                $user = $this->Auth->identify();
+                if ($user) {
+                    $this->Auth->setUser($user);
+                    if ($this->Auth->user('status') === 'In-ative') {
+                        $this->set('blocked', 'blocked');
+                    }
+                    if ($this->Auth->user('group') === 'admin') {
+                        $this->set('admin', 'admin');
+                    } else if ($this->Auth->user('group') === 'super') {
+                        $this->set('super', 'super');
+                    }
+                }
+                $this->set('error', 'error');
+            }
+        }
+    }
+
     public function login() {
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
@@ -117,12 +143,12 @@ class UsersController extends AppController {
             $this->set('title', 'Login');
         }
     }
-    
+
     public function signup() {
         if ($this->request->is('post')) {
             $UserEmail = $this->UsersTable->find()->where(['email' => $this->request->data('email')])->first();
             if (!empty($UserEmail->email)) {
-                $this->set('exist', 'registered');
+                $this->set('exist', 'appregistered');
             } else {
                 $UserData = $this->UsersTable->newEntity();
                 $Udata = ['email' => $this->request->data('email'), 'password' => $this->request->data('password'),
@@ -257,7 +283,7 @@ class UsersController extends AppController {
         $tenants = $this->TenantsTable->find()->where(['tenants.user_id' => $this->Auth->user('id')])->contain(['Property', 'Ledger']);
         $property = $this->PropertyTable->find('list', ['valueField' => ['prop_name']]);
         $this->set('property', $property);
-        $ledger = $this->LedgerTable->find('list',['valueField' => ['ledger_name']]);
+        $ledger = $this->LedgerTable->find('list', ['valueField' => ['ledger_name']]);
         $this->set('ledger', $ledger);
         $this->set('tenants', $tenants);
         $this->layout = 'dashboard';
@@ -306,7 +332,7 @@ class UsersController extends AppController {
     }
 
     public function contract($id) {
-        $tenant = $this->TenantsTable->get($id,['contain'=>['Property']]);
+        $tenant = $this->TenantsTable->get($id, ['contain' => ['Property']]);
         $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, 'A4', true, 'UTF-8', false);
         $pdf->SetPrintHeader(false);
         $pdf->SetPrintFooter(false);
@@ -329,28 +355,29 @@ class UsersController extends AppController {
                 <h1 align="center" style="font-size:20px">Murasiet Mentoor ID 680229 5164 084</h1>
                 <p align="center" style="font-size:20px">(LESSOR)</p>
                 <p align="center" style="font-size:20px">AND</p>
-                <p align="center" style="font-size:20px"> '.$tenant->firstname.' '.$tenant->surname.'</p>
-                <p align="center" style="font-size:20px">ID / Passport NO: '.$tenant->ID_number.'</p>
+                <p align="center" style="font-size:20px"> ' . $tenant->firstname . ' ' . $tenant->surname . '</p>
+                <p align="center" style="font-size:20px">ID / Passport NO: ' . $tenant->ID_number . '</p>
                 <p align="center" style="font-size:20px">(HEREINAFTER REFERRED TO AS THE LESSEE)</p>
-                <p align="center" style="font-size:20px">('.$tenant->address_type.' ADDRESS)</p>
-                <p align="center" style="font-size:20px"> '.$tenant->address.'</p>    
+                <p align="center" style="font-size:20px">(' . $tenant->address_type . ' ADDRESS)</p>
+                <p align="center" style="font-size:20px"> ' . $tenant->address . '</p>    
                 <p align="center" style="font-size:20px">IN RESPECT OF PROPERTY</p>
-                <p align="center" style="font-size:20px">Main house (structure) at '.$tenant->property->prop_name.' </p>
+                <p align="center" style="font-size:20px">Main house (structure) at ' . $tenant->property->prop_name . ' </p>
                 <br>
                 <br>
                 <hr>
-                <p style="font-size:20px"> '.$tenant->conditions.'</p>
-                ';               
+                <p style="font-size:20px"> ' . $tenant->conditions . '</p>
+                ';
         $pdf->setCellMargins(5, 5, 5, 5);
         $pdf->writeHTML($html, true, 0, true, 0);
-         // add a page
-               $pdf->AddPage();
-               $html='
+        // add a page
+        $pdf->AddPage();
+        $html = '
                 
                 ';
         $pdf->setCellMargins(5, 5, 5, 5);
-        $pdf->writeHTML($html, true, 0, true, 0);       
+        $pdf->writeHTML($html, true, 0, true, 0);
         $pdf->lastPage();
         $pdf->Output('contract-form.pdf', 'I');
     }
+
 }
