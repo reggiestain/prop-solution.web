@@ -22,5 +22,10 @@ use Cake\ORM\Entity;
 class vendor extends Entity {
     
     protected $_accessible = ['*' => true];
+    
+     protected function _getContactName(){      
+        return $this->_properties['title'] . '  ' .
+            $this->_properties['surname'];
+    }
 }
 

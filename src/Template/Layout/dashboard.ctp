@@ -27,10 +27,10 @@ $cakeDescription = '';
 
         <!-- Bootstrap Docs -->
         <link href="http://getbootstrap.com/docs-assets/css/docs.css" rel="stylesheet" media="screen">
-
         <!-- Bootstrap -->
         <?php echo $this->Html->css('bootstrap.min.css');?>
         <?php //echo $this->Html->css('ckeditor.css') ;?>
+        <?php echo $this->Html->css('multi-select.css') ;?>
         <?php echo $this->Html->css('bootstrap-theme.min.css');?>
         <?php echo $this->Html->css('font-awesome.min.css');?>
         <?php echo $this->Html->css('cake-style.css') ;?>    
@@ -108,7 +108,8 @@ $cakeDescription = '';
         <?php echo $this->Html->script('jquery');?>
         <?php echo $this->Html->script('http://code.jquery.com/jquery-2.0.3.min');?>
         <?php echo $this->Html->script('bootstrap.min');?>   
-        <?php echo $this->Html->script('bootstrap-switch');?>        
+        <?php echo $this->Html->script('bootstrap-switch');?>
+        <?php echo $this->Html->script('multi-select');?>
         <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
 
     </head>
@@ -128,5 +129,6 @@ $cakeDescription = '';
         <?php echo $this->Html->script('bootstrap-datepicker.min');?>
         <?php echo $this->Html->script('file');?>
         <?php echo $this->Html->script('jquery.uniform');?>
+        
     </body>
 </html>

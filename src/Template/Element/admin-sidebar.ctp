@@ -7,7 +7,7 @@
                 <div class="col-md-2 bootstrap-admin-col-left">
                     <ul class="nav navbar-collapse collapse bootstrap-admin-navbar-side">                        
                         <li class="active">
-                            <a href="dashboard.html"><i class="glyphicon glyphicon-chevron-right"></i> Dashboard</a>
+                            <a href="#"><i class="glyphicon glyphicon-chevron-right"></i> Dashboard</a>
                         </li>
                         <li>
                             <a href="#"><i class="glyphicon glyphicon-chevron-right"></i> Manage</a><!-- calendar.html -->

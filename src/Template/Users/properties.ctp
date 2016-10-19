@@ -22,11 +22,11 @@ use Cake\Network\Exception\NotFoundException;
 <!-- content -->
 <div class="col-md-10">
     <div class="row">
-        <div class="col-lg-12">
-            <div class="page-header bootstrap-admin-content-title">
-                                <?php echo $this->element('menus/manage-menu');?>
-            </div>
-        </div>
+    <div class="col-lg-12">
+    <div class="page-header bootstrap-admin-content-title">
+    <?php echo $this->element('menus/manage-menu');?>
+    </div>
+    </div>
     </div>
     <?php 
     echo $this->Flash->render();
@@ -48,7 +48,7 @@ use Cake\Network\Exception\NotFoundException;
                                 <th>Purchase Amount</th>
                                 <th>Loan Amount</th>
                                 <th>Monthly Payment</th>
-                                <th>Owner</th>
+                                <th>Owner / Manager</th>
                                 <th>Created</th>
                             </tr>
                         </thead>
@@ -60,11 +60,12 @@ use Cake\Network\Exception\NotFoundException;
                             <td><?php echo 'R '.number_format($Profile->current_value, 2, '.', '');?></td>
                             <td><?php echo 'R '.number_format($Profile->purchase_price, 2, '.', '');?></td>
                             <td><?php echo 'R '.number_format($Profile->monthly_payment, 2, '.', '');?></td>
-                            <td><?php echo $Profile->profile->full_name;?></td>
+                            <td><?php echo $Profile->manager->full_name;?></td>
                             <td><?php echo $Profile->created;?></td>
                             <td>
-                                <a href="#" class="btn btn-xs btn-primary">View</a>    
-                                <a href="#" class="btn btn-xs btn-danger">Delete</a>
+                                <a href="#" class="btn btn-xs btn-primary">View</a>
+                                <a href="<?php echo \Cake\Routing\Router::Url('/users/compliants');?>" class="btn btn-xs btn-warning">Compliants</a>
+                                <!--<a href="#" class="btn btn-xs btn-danger">Delete</a>-->
                             </td>
                             </tr>
                             <?php endforeach;?>

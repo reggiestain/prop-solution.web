@@ -19,7 +19,7 @@ use Cake\Datasource\ConnectionManager;
 use Cake\Error\Debugger;
 use Cake\Network\Exception\NotFoundException;
 ?>
-<?php echo $this->Form->create($tenantInfo,['url' => ['action' => 'update_tenant']]);?>
+<?php echo $this->Form->create($tenantInfo,['url' => ['action' => 'update_tenant',$id]]);?>
             <div class="modal-body"> 
                 <div class="row">
                     <div class="form-group col-lg-6">

@@ -182,10 +182,10 @@ return [
         'default' => [
             'className' => 'Smtp',
             // The following keys are used in SMTP transports
-            'host' => 'ssl://smtp.gmail.com',
+            'host' => 'upchuck.aserv.co.za',
             'port' => 465,
             'timeout' => 30,
-            'username' => 'reggiestain@gmail.com',
+            'username' => 'info@rilconsulting.co.za',
             'password' => 'REGinald19',
            // 'client' => null,
             //'tls' => null,
@@ -195,10 +195,10 @@ return [
      'default' => [
             'className' => 'Smtp',
             // The following keys are used in SMTP transports
-            'host' => 'ssl://smtp.gmail.com',
+            'host' => 'upchuck.aserv.co.za',
             'port' => 465,
             'timeout' => 30,
-            'username' => 'reggiestain@gmail.com',
+            'username' => 'info@rilconsulting.co.za',
             'password' => 'REGinald19',
            // 'client' => null,
             //'tls' => null,

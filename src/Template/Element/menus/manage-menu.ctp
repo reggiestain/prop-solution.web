@@ -2,7 +2,11 @@
 ;
 //use Cake\Routing\Router;
 ?>
-
+<style>
+    .btn-default{
+        margin-bottom: 5px;
+    }   
+</style>
 
     <ul class="nav nav-pills">
     <a href="<?php echo \Cake\Routing\Router::Url('/users/properties');?>" class="btn btn-default btn-md">

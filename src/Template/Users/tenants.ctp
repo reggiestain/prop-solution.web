@@ -70,11 +70,11 @@ use Cake\Network\Exception\NotFoundException;
                                 <td><?php echo $tenant->recurring_rent;?></td>
                                 <td><?php echo $tenant->created;?></td>
                                 <td>
-                                    <div class="col-md-12">
+                                    
                                     <a href="#" class="btn btn-xs btn-primary btn-responsive" var="<?php echo $tenant->id;?>">View</a><br>                                    
                                     <a href="<?php echo \Cake\Routing\Router::Url('/users/contract/'.$tenant->id);?>" target="_blank" class="btn btn-xs btn-default btn-responsive" style="margin-top: 2px"><i class="fa fa-download"></i> Contract</a><br>
                                     <a href="#" class="btn btn-xs btn-danger btn-responsive" style="margin-top: 2px">Delete</a>
-                                    </div>
+             
                                 </td>
                             </tr>
                             <?php endforeach;?>
@@ -101,6 +101,7 @@ use Cake\Network\Exception\NotFoundException;
                 <div class="row">
                     <div class="form-group col-lg-6">
                         <label for="formGroupExampleInput">Select Property </label>
+                        <input type="hidden" class="form-control" name="user_id" value="<?php echo $UserId;?>"> 
                         <?php    
                         echo $this->Form->select('property_id',$property,['empty'=>'--Chose One--','class'=>'form-control','required']);    
                         ?>  
@@ -123,7 +124,7 @@ use Cake\Network\Exception\NotFoundException;
                     </div>
                     <div class="form-group col-lg-6">    
                         <label>ID / Passport Number</label>    
-                        <input type="text" class="form-control" name="ID_number">                           
+                        <input type="text" class="form-control" name="ID_number" required>                           
                     </div>
                 </div>
                 <br>

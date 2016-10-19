@@ -20,19 +20,22 @@ use Cake\Error\Debugger;
 use Cake\Network\Exception\NotFoundException;
 ?>
 <?php 
-if($blocked === 'blocked'){
-   echo 'blocked';
-}
-if($admin === 'admin'){
-   echo 'admin';
-}
-if($super === 'super'){
-   echo 'super';
-}
-if($error === 'error'){
-   echo 'loginerror';
-}
 
-                   
+if($message === 'blocked'){
+   echo $message;
+}
+if($message === 'admin'){
+   echo $message;
+}
+if($message === 'tenant'){
+   echo $message;
+}
+if($message === 'super'){
+   echo $message;
+}
+if($message === 'error'){
+   echo $message;
+}
+                  
 ?>                    
 

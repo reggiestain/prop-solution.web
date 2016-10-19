@@ -25,18 +25,25 @@ class VendorsTable extends Table {
     public function initialize(array $config) {
         $this->table('vendors');
         $this->addBehavior('Timestamp');
-       // Just add the belongsTo relation with CategoriesTable
-       $this->belongsTo('Province', [
+        // Just add the belongsTo relation with CategoriesTable
+        $this->belongsTo('Province', [
             'foreignKey' => 'province_id',
             'joinType' => 'INNER'
+        ]);
+
+
+        $this->hasMany('VendorMaintenance', [
+            'className' => 'VendorMaintenance',
+            'foreignKey' => 'vendor_id',
+            //'dependent' => true,
+        ]);
+
+        $this->hasMany('VendorCity', [
+            'className' => 'VendorCity',
+            'foreignKey' => 'vendor_id',
+            'dependent' => true,
             
-        ]);     
-        
-        $this->belongsTo('Maintenance', [
-            'foreignKey' => 'maintenance_id',
-            'joinType' => 'INNER'
-            
-        ]); 
+        ]);
     }
 
 }
