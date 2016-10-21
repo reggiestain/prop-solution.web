@@ -9,6 +9,11 @@
 </style>
 
     <ul class="nav nav-pills">
+        
+    <a href="<?php echo \Cake\Routing\Router::Url('/users/complaints');?>" class="btn btn-default btn-md">
+    <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Complaints
+    </a>
+        
     <a href="<?php echo \Cake\Routing\Router::Url('/users/properties');?>" class="btn btn-default btn-md">
     <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Properties
     </a>

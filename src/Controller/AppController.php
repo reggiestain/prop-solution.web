@@ -44,9 +44,9 @@ class AppController extends Controller {
      *
      * @return void
      */
-    
     public function initialize() {
-        
+
+        $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
         $this->loadComponent('Paginator');
         $this->loadComponent('Cookie');
@@ -57,7 +57,14 @@ class AppController extends Controller {
                     'fields' => ['username' => 'email', 'password' => 'password']
                 ]
             ],
-          
+            'loginRedirect' => [
+                'controller' => 'Users',
+                'action' => 'dashboard'
+            ],
+            'logoutRedirect' => [
+                'controller' => 'Users',
+                'action' => 'login'
+            ]
         ]);
     }
 

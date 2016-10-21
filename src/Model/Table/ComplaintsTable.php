@@ -35,7 +35,19 @@ class ComplaintsTable extends Table {
             'foreignKey' => 'complaint_id',
             'joinType' => 'INNER'
             
+        ]); 
+        
+        $this->belongsTo('Tenants', [
+            'foreignKey' => 'tenant_id',
+            'joinType' => 'INNER'
+            
         ]);  
+        
+        $this->belongsTo('Property', [
+            'foreignKey' => 'property_id',
+            'joinType' => 'INNER'
+            
+        ]); 
         
     }
 }

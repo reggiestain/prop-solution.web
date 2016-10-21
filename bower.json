@@ -1,0 +1,22 @@
+{
+  "name": "prop-solution",
+  "homepage": "https://github.com/reggiestain/prop-solution.web",
+  "authors": [
+    "reggiestain <reggiestain@gmail.com>"
+  ],
+  "description": "Property Management Solution",
+  "main": "index.php",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "summernote": "^0.8.2"
+  }
+}

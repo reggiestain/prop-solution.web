@@ -43846,3 +43846,1493 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2016-10-20 23:39:58 Notice: Notice (8): Undefined variable: title in [C:\wamp\www\prop-solution\src\Template\Layout\default.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 510
+Cake\View\View::render() - CORE\src\View\View.php, line 472
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:05:36 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:05:36 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:05:36 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:05:36 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:05:37 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:06:16 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:06:16 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:06:16 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:06:16 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:06:17 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:07:42 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:07:42 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:07:43 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:07:43 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:07:43 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:23:21 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:23:21 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:23:21 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:23:21 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:23:21 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:07 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:07 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:07 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:07 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:07 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:28 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:29 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:29 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:29 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:29 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:46 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:46 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:46 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:46 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:24:46 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:03 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:03 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:03 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:03 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:04 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:12 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:12 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:12 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:12 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:13 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:32 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:32 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:32 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:32 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:26:32 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:27:12 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:27:12 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:27:12 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:27:12 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:27:12 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:28:01 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:28:01 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:28:01 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:28:01 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:28:01 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:34:16 Notice: Notice (8): Undefined variable: title in [C:\wamp\www\prop-solution\src\Template\Layout\default.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 510
+Cake\View\View::render() - CORE\src\View\View.php, line 472
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:34:16 Notice: Notice (8): Undefined variable: title in [C:\wamp\www\prop-solution\src\Template\Layout\default.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 510
+Cake\View\View::render() - CORE\src\View\View.php, line 472
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:34:36 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:34:36 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:34:36 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:34:36 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:34:36 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:35:22 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:35:22 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:35:22 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:35:23 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:35:23 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:35:53 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:35:53 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:35:53 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:35:53 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:35:54 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:37:24 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:37:24 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:37:24 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:37:24 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:37:24 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:38:11 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:38:11 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:38:11 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:38:11 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:38:11 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:38:59 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:39:00 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:39:00 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:39:00 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:39:00 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:40:31 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:40:31 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:40:32 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:40:32 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:40:32 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:50:20 Notice: Notice (8): Undefined variable: title in [C:\wamp\www\prop-solution\src\Template\Layout\default.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 510
+Cake\View\View::render() - CORE\src\View\View.php, line 472
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:51:20 Notice: Notice (8): Undefined variable: title in [C:\wamp\www\prop-solution\src\Template\Layout\default.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 510
+Cake\View\View::render() - CORE\src\View\View.php, line 472
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:51:27 Notice: Notice (8): Undefined variable: prop in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 92]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 92
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:51:27 Notice: Notice (8): Undefined variable: userId in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 96]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 96
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:51:28 Notice: Notice (8): Undefined variable: province in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 107
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:51:28 Notice: Notice (8): Undefined variable: profile in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 195]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 195
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:51:28 Notice: Notice (8): Undefined variable: ledger in [C:\wamp\www\prop-solution\src\Template\Users\dashboard.ctp, line 202]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\dashboard.ctp, line 202
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::render() - CORE\src\View\View.php, line 464
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+
+2016-10-21 00:51:35 Notice: Notice (8): Undefined variable: title in [C:\wamp\www\prop-solution\src\Template\Layout\default.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 833
+Cake\View\View::_render() - CORE\src\View\View.php, line 793
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 510
+Cake\View\View::render() - CORE\src\View\View.php, line 472
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 39
+
+
+

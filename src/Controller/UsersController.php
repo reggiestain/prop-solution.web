@@ -94,7 +94,7 @@ class UsersController extends AppController {
         $this->MaintenanceTable = TableRegistry::get('maintenance');
         $this->TenantsTable = TableRegistry::get('tenants');
         $this->ManagersTable = TableRegistry::get('managers');
-        $this->ComplaintsTable = TableRegistry::get('complaints');
+        $this->CompliantsTable = TableRegistry::get('complaints');
         $this->CompCommentsTable = TableRegistry::get('complaint_comments');
         $this->CityTable = TableRegistry::get('city');
         $this->VendorCityTable = TableRegistry::get('vendor_city');
@@ -205,7 +205,9 @@ class UsersController extends AppController {
     }
 
     public function dashboard() {
-        $this->set('title', 'Dashboard');
+        $complaints = $this->CompliantsTable->find()->where(['complaints.user_id' =>$this->Auth->user('id'),'complaints.property_id' =>$this->Auth->user('property_id')])->contain(['Tenants', 'Property']);
+        $this->set('complaints', $complaints);
+        $this->set('title','Dashboard');
         $this->layout = 'dashboard';
     }
 
@@ -547,6 +549,11 @@ class UsersController extends AppController {
         $pdf->writeHTML($html, true, 0, true, 0);
         $pdf->lastPage();
         $pdf->Output('contract-form.pdf', 'I');
+    }
+    
+    public function logout() {
+      $this->set('title', 'Login');  
+      return $this->redirect($this->Auth->logout());  
     }
 
 }

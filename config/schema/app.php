@@ -222,9 +222,9 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'nonstandard_port_number',
-            'username' => 'rilcohmx_dev5',
+            'username' => 'k3damgds_dev5',
             'password' => 'REGinald19',
-            'database' => 'rilcohmx_eduril',
+            'database' => 'k3damgds_propsolution',
             'encoding' => 'utf8',
             'timezone' => '',
             'cacheMetadata' => false,
