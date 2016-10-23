@@ -10,7 +10,7 @@
 
     <ul class="nav nav-pills">
         
-    <a href="<?php echo \Cake\Routing\Router::Url('/users/complaints');?>" class="btn btn-default btn-md">
+    <a href="<?php echo \Cake\Routing\Router::Url('/users/dashboard');?>" class="btn btn-default btn-md">
     <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Complaints
     </a>
         
@@ -30,8 +30,8 @@
     <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Vendors
     </a>    
         
-    <a href="<?php echo \Cake\Routing\Router::Url('/users/ledger');?>" class="btn btn-default btn-md">
+    <!--<a href="<?php //echo \Cake\Routing\Router::Url('/users/ledger');?>" class="btn btn-default btn-md">
     <span class="fa fa-money" aria-hidden="true"></span> General Ledger
-    </a>     
+    </a> -->    
     </ul>
 

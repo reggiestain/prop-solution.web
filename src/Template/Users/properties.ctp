@@ -22,11 +22,11 @@ use Cake\Network\Exception\NotFoundException;
 <!-- content -->
 <div class="col-md-10">
     <div class="row">
-    <div class="col-lg-12">
-    <div class="page-header bootstrap-admin-content-title">
+        <div class="col-lg-12">
+            <div class="page-header bootstrap-admin-content-title">
     <?php echo $this->element('menus/manage-menu');?>
-    </div>
-    </div>
+            </div>
+        </div>
     </div>
     <?php 
     echo $this->Flash->render();
@@ -40,7 +40,7 @@ use Cake\Network\Exception\NotFoundException;
                     <div class="text-muted bootstrap-admin-box-title">Properties <a class="btn btn-xs btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></div>
                 </div>
                 <div class="bootstrap-admin-panel-content table-responsive">
-                    <table class="table table-striped">
+                    <table id="example" class="table table-striped">
                         <thead>
                             <tr>
                                 <th>Property</th>
@@ -50,23 +50,24 @@ use Cake\Network\Exception\NotFoundException;
                                 <th>Monthly Payment</th>
                                 <th>Owner / Manager</th>
                                 <th>Created</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php foreach ($props as $Profile) :?>    
                             <tr>
-                            <td><?php echo '<a href="#">'.$Profile->address.'</a>';?></td>
-                            <td><?php echo 'R '.number_format($Profile->schedule_rent, 2, '.', '');?></td>
-                            <td><?php echo 'R '.number_format($Profile->current_value, 2, '.', '');?></td>
-                            <td><?php echo 'R '.number_format($Profile->purchase_price, 2, '.', '');?></td>
-                            <td><?php echo 'R '.number_format($Profile->monthly_payment, 2, '.', '');?></td>
-                            <td><?php echo $Profile->manager->full_name;?></td>
-                            <td><?php echo $Profile->created;?></td>
-                            <td>
-                                <a href="#" class="btn btn-xs btn-primary">View</a>
-                                <a href="<?php echo \Cake\Routing\Router::Url('/users/compliants');?>" class="btn btn-xs btn-warning">Compliants</a>
-                                <!--<a href="#" class="btn btn-xs btn-danger">Delete</a>-->
-                            </td>
+                                <td><?php echo '<a href="#">'.$Profile->address.'</a>';?></td>
+                                <td><?php echo 'R '.number_format($Profile->schedule_rent, 2, '.', '');?></td>
+                                <td><?php echo 'R '.number_format($Profile->current_value, 2, '.', '');?></td>
+                                <td><?php echo 'R '.number_format($Profile->purchase_price, 2, '.', '');?></td>
+                                <td><?php echo 'R '.number_format($Profile->monthly_payment, 2, '.', '');?></td>
+                                <td><?php echo $Profile->manager->full_name;?></td>
+                                <td><?php echo $Profile->created;?></td>
+                                <td>
+                                    <a href="#" class="btn btn-xs btn-primary view" data="<?php echo $Profile->id;?>">View</a>
+                                    <a href="<?php echo \Cake\Routing\Router::Url('/users/compliants');?>" class="btn btn-xs btn-warning">Compliants</a>
+                                    <!--<a href="#" class="btn btn-xs btn-danger">Delete</a>-->
+                                </td>
                             </tr>
                             <?php endforeach;?>
                         </tbody>
@@ -87,7 +88,7 @@ use Cake\Network\Exception\NotFoundException;
                 <h4 class="modal-title" id="myModalLabel">Add Property</h4>
             </div>
             <!--<form id="add-unit" action="<?php //echo \Cake\Routing\Router::Url('/users/signup');?>">-->
-                <?php echo $this->Form->create($prop,['url' => ['action' => 'add_prop']]);?>
+            <?php echo $this->Form->create($prop,['url' => ['action' => 'add_prop']]);?>
             <div class="modal-body"> 
                 <div class="row">
                     <div class="form-group col-lg-4">
@@ -258,71 +259,113 @@ use Cake\Network\Exception\NotFoundException;
             </div>
             </form>        
         </div>
+    </div
+</div>
+</div>
+<!--View Modal -->
+<div class="modal fade" id="viewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Edit Property Information</h4>
+            </div>
+            <div class="modal-body"> 
+                <div class="propInfo">
+
+                </div>
+                </form>        
+            </div>
+        </div>
     </div>
-    <script>
-        $(document).ready(function () {
+</div>    
+<script>
+    $(document).ready(function () {
+        $('#example').DataTable();
+        $('#date01').datepicker();
+        $('#date02').datepicker();
 
-            $('#date01').datepicker();
-            $('#date02').datepicker();
+        $("#add-prop").click(function () {
+            $("#propModal").modal();
+        });
 
-            $("#add-prop").click(function () {
-                $("#propModal").modal();
-            });
+        $(".view").click(function () {
+            var id = $(this).attr('data');
+            $("#viewModal").modal();
+            $.ajax({
+                url: "<?php echo \Cake\Routing\Router::Url('/users/edit_property/');?>" + id,
+                type: "POST",
+                asyn: true,
+                beforeSend: function () {
+                    $(".propInfo").html('<p>loading.......</p>');
+                },
+                success: function (data, textStatus, jqXHR)
+                {
+                    $(".propInfo").html(data);
+                },
+                error: function (jqXHR, textStatus, errorThrown)
+                {
 
-            $("#add-uni").on("submit", function (event) {
-                event.preventDefault();
-                var name = $("input[name=address]").val();
-                $("#input-44").fileinput("upload");
-
-            });
-
-            $(".s-file").on("click", function () {
-                $(".file-div").toggle();
-                $("#input-44").fileinput({
-                    uploadUrl: '<?php echo \Cake\Routing\Router::Url('/users/add_prop');?>',
-                    showUpload: false,
-                    uploadAsync: true,
-                    allowedFileExtensions: ['jpg', 'png', 'gif'],
-                    maxFilePreviewSize: 10240,
-                    uploadExtraData: {
-                        address: $("input[name=address]").val(),
-                        city: $("input[name=city]").val(),
-                        province: $("input[name=province]").val(),
-                        code: $("input[name=area_code]").val(),
-                    }
-                }).on('filebatchpreupload', function (event, data, id, index) {
-                    $('#kv-success-1').html('<h4>Upload Status</h4><ul></ul>').hide();
-                }).on('fileuploaded', function (event, data, id, index) {
-                    var fname = data.files[index].name,
-                            out = '<li>' + 'Uploaded file # ' + (index + 1) + ' - ' +
-                            fname + ' successfully.' + '</li>';
-                    $('#kv-success-1 ul').append(out);
-                    $('#kv-success-1').fadeIn('slow');
-                });
-
-            });
-
-
-            $("#reset-form").submit(function (event) {
-                event.preventDefault();
-                $('#RModal').modal('toggle');
-                var formData = $("#reset-form").serialize();
-                var url = $("#reset-form").attr("action");
-                $.ajax({
-                    url: "<?php echo \Cake\Routing\Router::Url('/users/reset_pass');?>",
-                    type: "POST",
-                    asyn: true,
-                    data: formData,
-                    success: function (data, textStatus, jqXHR)
-                    {
-                        $(".e-message").html(data);
-                    },
-                    error: function (jqXHR, textStatus, errorThrown)
-                    {
-
-                    }
-                });
+                }
             });
         });
-    </script>    
+
+        $("#add-uni").on("submit", function (event) {
+            event.preventDefault();
+            var name = $("input[name=address]").val();
+            $("#input-44").fileinput("upload");
+
+        });
+
+        $(".s-file").on("click", function () {
+            $(".file-div").toggle();
+            $("#input-44").fileinput({
+                uploadUrl: '<?php echo \Cake\Routing\Router::Url('/users/add_prop');?>',
+                showUpload: false,
+                uploadAsync: true,
+                allowedFileExtensions: ['jpg', 'png', 'gif'],
+                maxFilePreviewSize: 10240,
+                uploadExtraData: {
+                    address: $("input[name=address]").val(),
+                    city: $("input[name=city]").val(),
+                    province: $("input[name=province]").val(),
+                    code: $("input[name=area_code]").val(),
+                }
+            }).on('filebatchpreupload', function (event, data, id, index) {
+                $('#kv-success-1').html('<h4>Upload Status</h4><ul></ul>').hide();
+            }).on('fileuploaded', function (event, data, id, index) {
+                var fname = data.files[index].name,
+                        out = '<li>' + 'Uploaded file # ' + (index + 1) + ' - ' +
+                        fname + ' successfully.' + '</li>';
+                $('#kv-success-1 ul').append(out);
+                $('#kv-success-1').fadeIn('slow');
+            });
+
+        });
+
+
+        $("#reset-form").submit(function (event) {
+            event.preventDefault();
+            $('#RModal').modal('toggle');
+            var formData = $("#reset-form").serialize();
+            var url = $("#reset-form").attr("action");
+            $.ajax({
+                url: "<?php echo \Cake\Routing\Router::Url('/users/reset_pass');?>",
+                type: "POST",
+                asyn: true,
+                data: formData,
+                success: function (data, textStatus, jqXHR)
+                {
+                    $(".e-message").html(data);
+                },
+                error: function (jqXHR, textStatus, errorThrown)
+                {
+
+                }
+            });
+        });
+    });
+</script>    
 

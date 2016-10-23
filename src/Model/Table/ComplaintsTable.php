@@ -43,6 +43,13 @@ class ComplaintsTable extends Table {
             
         ]);  
         
+        $this->belongsTo('Vendors', [
+            'foreignKey' => 'vendor_id',
+            'joinType' => 'INNER'
+            
+        ]);  
+        
+        
         $this->belongsTo('Property', [
             'foreignKey' => 'property_id',
             'joinType' => 'INNER'

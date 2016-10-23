@@ -40,18 +40,16 @@ use Cake\Network\Exception\NotFoundException;
                     <div class="text-muted bootstrap-admin-box-title"> Tenants <a class="btn btn-sm btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></div>
                 </div>
                 <div class="bootstrap-admin-panel-content">
-                    <table class="table table-striped">
+                    <table id="example" class="table table-striped">
                         <thead>
                             <tr>
                                 <th>First Name</th>
                                 <th>Last Name</th>
-                                <th>ID / Passport Number</th>
                                 <th>Property</th>
                                 <th>Unit</th>
                                 <th>Phone</th>
                                 <th>Email</th>
-                                <th>Rent Amount</th>
-                                
+                                <th>Rent Amount</th>                                
                                 <th>Created</th>
                                 <th>Actions</th>
                             </tr>
@@ -61,13 +59,11 @@ use Cake\Network\Exception\NotFoundException;
                             <tr>
                                 <td><?php echo $tenant->firstname;?></td>
                                 <td><?php echo $tenant->surname;?></td>
-                                <td><?php echo $tenant->ID_number;?></td>
                                 <td><?php echo $tenant->property->prop_name;?></td>
                                 <td><?php echo $tenant->unit;?></td>
                                 <td><?php echo $tenant->phone1;?></td>
                                 <td><?php echo $tenant->email;?></td>
                                 <td><?php echo 'R'.number_format($tenant->re_amount, 2, '.', '');?></td>
-                                <td><?php echo $tenant->recurring_rent;?></td>
                                 <td><?php echo $tenant->created;?></td>
                                 <td>
                                     
@@ -369,7 +365,7 @@ use Cake\Network\Exception\NotFoundException;
         tinymce.init({
             selector: '#mytextarea2'
         });
-        //$("#curr").bootstrapSwitch();
+        $('#example').DataTable();
         $('#date02').datepicker();
         $('#date03').datepicker();
         $('#date04').datepicker();
@@ -395,6 +391,9 @@ use Cake\Network\Exception\NotFoundException;
                 url: "<?php echo \Cake\Routing\Router::Url('/users/edit_tenant/');?>" + id,
                 type: "POST",
                 asyn: true,
+                beforeSend: function () {
+                 $(".tenantInfo").html('<p>loading.......</p>');   
+                },
                 success: function (data, textStatus, jqXHR)
                 {                    
                     $(".tenantInfo").html(data);                    

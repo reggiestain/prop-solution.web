@@ -205,9 +205,14 @@ class UsersController extends AppController {
     }
 
     public function dashboard() {
-        $complaints = $this->CompliantsTable->find()->where(['complaints.user_id' =>$this->Auth->user('id'),'complaints.property_id' =>$this->Auth->user('property_id')])->contain(['Tenants', 'Property']);
+        $complaints = $this->CompliantsTable->find()->where(['complaints.user_id' => $this->Auth->user('id'), 'complaints.property_id' => $this->Auth->user('property_id')])->contain(['Tenants', 'Property']);
+        $compliantReply = $this->CompCommentsTable->newEntity();
+        $vendor = $this->VendorsTable->find('list', ['valueField' => ['reg_name']]);
         $this->set('complaints', $complaints);
-        $this->set('title','Dashboard');
+        $this->set('compliantReply', $compliantReply);
+        $this->set('userId', $this->Auth->user('id'));
+        $this->set('vendor', $vendor);
+        $this->set('title', 'Dashboard');
         $this->layout = 'dashboard';
     }
 
@@ -221,6 +226,37 @@ class UsersController extends AppController {
         $this->set('profile', $profile);
         $this->set('ledger', $ledger);
         $this->set('userId', $this->Auth->user('id'));
+        $this->set('title','Properties');
+        $this->layout = 'dashboard';
+    }
+
+    public function edit_property($id) {
+        if ($this->request->is('ajax')) {
+            $propInfo = $this->PropertyTable->get($id, ['contain' => ['Province','Managers']]);
+            $province = $this->ProvinceTable->find('list');
+            $profile = $this->ManagersTable->find('list', ['valueField' => ['full_name']]);
+            $this->set('province', $province);
+            $this->set('profile', $profile);
+            $this->set('userId', $this->Auth->user('id'));
+            $this->set('propInfo', $propInfo);
+            
+        }
+        $this->layout = '';
+    }
+    
+    public function update_prop($id) {
+        $manager = $this->PropertyTable->get($id);
+        if ($this->request->is(['post', 'put'])) {
+            $managerData = $this->PropertyTable->patchEntity($manager, $this->request->data);
+            if ($this->PropertyTable->save($managerData)) {
+                $this->Flash->success(__('Property details has been updated successfully.'));
+                return $this->redirect(['action' => 'properties']);
+            } else {
+                $this->Flash->error(__('An error occured, please try again.'));
+                return $this->redirect(['action' => 'properties']);
+            }
+        }
+        $this->set('title','Properties');
         $this->layout = 'dashboard';
     }
 
@@ -239,19 +275,19 @@ class UsersController extends AppController {
         $this->layout = '';
     }
 
-    public function complaints() {
-        $compliants = $this->ComplaintsTable->find()->contain(['ComplaintComments']);
+    public function appcomplaints($id) {
+        $compliants = $this->CompliantsTable->find()->where(['tenant_id'=>$id])->contain(['ComplaintComments']);
         $this->set('compliants', $compliants);
         $this->layout = '';
     }
 
-    public function view_complaint($id) {
+    public function appview_complaint($id) {
         $compliant = $this->ComplaintsTable->get($id, ['contain' => ['ComplaintComments']]);
         $this->set('compliant', $compliant);
         $this->layout = '';
     }
 
-    public function compliant_reply() {
+    public function appcompliant_reply() {
         $compliantTable = $this->CompCommentsTable->newEntity();
         if ($this->request->is('post')) {
             $compliantData = $this->CompCommentsTable->patchEntity($compliantTable, $this->request->data);
@@ -266,7 +302,7 @@ class UsersController extends AppController {
         $this->layout = '';
     }
 
-    public function add_prop() {
+    public function appadd_prop() {
         $prop = $this->PropertyTable->newEntity();
         if ($this->request->is('post')) {
             $propData = $this->PropertyTable->patchEntity($prop, $this->request->data);
@@ -283,11 +319,38 @@ class UsersController extends AppController {
         $this->layout = 'dashboard';
     }
 
+    public function admincompliant_reply() {
+        $compliantTable = $this->CompCommentsTable->newEntity();
+        $compliant = $this->CompliantsTable->get($this->request->data('complaint_id'));
+        if ($this->request->is('post')) {
+            $compliantData = $this->CompCommentsTable->patchEntity($compliantTable, $this->request->data);
+            if ($this->CompCommentsTable->save($compliantData)) {
+                if(!empty($this->request->data('vendor_id'))){
+                   $compliant->vendor_id = $this->request->data('vendor_id');
+                }
+                $compliant->status = $this->request->data('status');
+                $this->CompliantsTable->save($compliant);
+                $this->Flash->success(__('Compliant reply has been saved successfully.'));
+                return $this->redirect(['action' => 'dashboard']);
+            } else {
+                $this->Flash->error(__('An error occured, please try again.'));
+                return $this->redirect(['action' => 'dashboard']);
+            }
+        }
+    }
+
+    public function admin_compliantinfo($id) {
+        $CompInfo = $this->CompliantsTable->get($id, ['contain' => ['ComplaintComments','Vendors']]);
+        $this->set('CompInfo', $CompInfo);
+        $this->layout = '';
+    }
+
     public function managers() {
         $profiles = $this->ManagersTable->find()->where(['managers.user_id' => $this->Auth->user('id')])->contain(['Province']);
         $province = $this->ProvinceTable->find('list');
         $this->set('province', $province);
         $this->set('profiles', $profiles);
+        $this->set('title','Managers');
         $this->layout = 'dashboard';
     }
 
@@ -305,6 +368,33 @@ class UsersController extends AppController {
         }
 
         $this->set('profile', $prop);
+        $this->layout = 'dashboard';
+    }
+
+    public function edit_manager($id) {
+        if ($this->request->is('ajax')) {
+            $managerInfo = $this->ManagersTable->get($id, ['contain' => ['Province']]);
+            $province = $this->ProvinceTable->find('list');
+
+            $this->set('managerInfo', $managerInfo);
+            $this->set('province', $province);
+        }
+        $this->layout = '';
+    }
+
+    public function update_manager($id) {
+        $manager = $this->ManagersTable->get($id);
+        if ($this->request->is(['post', 'put'])) {
+            $managerData = $this->ManagersTable->patchEntity($manager, $this->request->data);
+            if ($this->ManagersTable->save($managerData)) {
+                $this->Flash->success(__('Manager details has been updated successfully.'));
+                return $this->redirect(['action' => 'managers']);
+            } else {
+                $this->Flash->error(__('An error occured, please try again.'));
+                return $this->redirect(['action' => 'managers']);
+            }
+        }
+        $this->set('title','Managers');
         $this->layout = 'dashboard';
     }
 
@@ -404,7 +494,7 @@ class UsersController extends AppController {
         if ($this->request->is(['post', 'put'])) {
             $vendorData = $this->VendorsTable->patchEntity($vendorInfo, $this->request->data);
             if ($this->VendorsTable->save($vendorData)) {
-                if ($this->VendorMaintenanceTable->deleteAll(['vendor_id'=>$id])) {
+                if ($this->VendorMaintenanceTable->deleteAll(['vendor_id' => $id])) {
                     //$VendorMain = $this->VendorMaintenanceTable->get($id);
                     //$this->VendorMaintenanceTable->delete($VendorMain);
                     foreach ($this->request->data('maintenance_id') as $vendorMData) {
@@ -427,7 +517,6 @@ class UsersController extends AppController {
         } else {
             $this->Flash->error(__('An error occured, please try again.'));
             return $this->redirect(['action' => 'vendors']);
-        
         }
         $this->layout = 'dashboard';
     }
@@ -550,10 +639,10 @@ class UsersController extends AppController {
         $pdf->lastPage();
         $pdf->Output('contract-form.pdf', 'I');
     }
-    
+
     public function logout() {
-      $this->set('title', 'Login');  
-      return $this->redirect($this->Auth->logout());  
+        $this->set('title', 'Login');
+        return $this->redirect($this->Auth->logout());
     }
 
 }

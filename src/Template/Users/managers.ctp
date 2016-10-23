@@ -40,12 +40,11 @@ use Cake\Network\Exception\NotFoundException;
                     <div class="text-muted bootstrap-admin-box-title">Owner / Manager <a class="btn btn-sm btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></div>
                 </div>
                 <div class="bootstrap-admin-panel-content">
-                    <table class="table table-striped">
+                    <table id="example" class="table table-striped">
                         <thead>
                             <tr>
                                 <th>First Name</th>
                                 <th>Last Name</th>
-                                <th>Company Name</th>
                                 <th>Contact Number</th>
                                 <th>Email</th>
                                 <th>Type</th>
@@ -56,17 +55,16 @@ use Cake\Network\Exception\NotFoundException;
                         <tbody>
                             <?php foreach ($profiles as $Profile) :?>    
                             <tr>
-                            <td><?php echo $Profile->firstname;?></td>
-                            <td><?php echo $Profile->surname;?></td>
-                            <td><?php echo $Profile->company_name;?></td>
-                            <td><?php echo $Profile->phone1;?></td>
-                            <td><?php echo $Profile->email;?></td>
-                            <td><?php echo $Profile->type;?></td>
-                            <td><?php echo $Profile->created;?></td>
-                            <td>
-                                <a href="#" class="btn btn-xs btn-primary">View</a>    
-                                <a href="#" class="btn btn-xs btn-danger">Delete</a>
-                            </td>
+                                <td><?php echo $Profile->firstname;?></td>
+                                <td><?php echo $Profile->surname;?></td>
+                                <td><?php echo $Profile->phone1;?></td>
+                                <td><?php echo $Profile->email;?></td>
+                                <td><?php echo $Profile->type;?></td>
+                                <td><?php echo $Profile->created;?></td>
+                                <td>
+                                    <a href="#" class="btn btn-xs btn-primary view" data="<?php echo $Profile->id;?>">View</a>    
+                                    <a href="#" class="btn btn-xs btn-danger">Delete</a>
+                                </td>
                             </tr>
                             <?php endforeach;?>
                         </tbody>
@@ -105,59 +103,60 @@ use Cake\Network\Exception\NotFoundException;
                     </div>                     
                 </div>
                 <div class="row">
-                    <div class="form-group col-lg-6">    
-                        <label>Company Name</label>    
-                        <input type="text" class="form-control" name="company_name">                           
-                    </div>
+                    <!-- <div class="form-group col-lg-6">    
+                         <label>Company Name</label>    
+                         <input type="text" class="form-control" name="company_name">                           
+                     </div>
+                    -->
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-lg-4"> 
-                    <label>First Name</label>                       
-                    <input type="text" class="form-control" name="firstname" required>                                                                            
+                        <label>First Name</label>                       
+                        <input type="text" class="form-control" name="firstname" required>                                                                            
                     </div>
                     <div class="col-lg-4">    
-                    <label>Surname</label>                           
-                     <input type="text" class="form-control" name="surname" required>                                                                                
+                        <label>Surname</label>                           
+                        <input type="text" class="form-control" name="surname" required>                                                                                
                     </div>
                     <div class="col-lg-4">    
-                    <label>Email</label>                           
-                    <input type="email" class="form-control" name="email" required>                                                        
+                        <label>Email</label>                           
+                        <input type="email" class="form-control" name="email" required>                                                        
                     </div>
                 </div> 
                 <br>
                 <div class="row">
                     <div class="col-lg-4"> 
-                    <label>Address</label>                       
-                    <input type="text" class="form-control" name="address" required>                                                                            
+                        <label>Address</label>                       
+                        <input type="text" class="form-control" name="address" required>                                                                            
                     </div>
                     <div class="col-lg-3">    
-                    <label>City</label>                           
-                     <input type="text" class="form-control" name="city" required>                                                                                
+                        <label>City</label>                           
+                        <input type="text" class="form-control" name="city" required>                                                                                
                     </div>
                     <div class="col-lg-3">    
-                    <label>Province</label>                           
+                        <label>Province</label>                           
                     <?php                       
                     echo $this->Form->select('province_id',$province,['empty'=>'--Chose One--','class'=>'form-control','required']);    
                     ?>                                                        
                     </div>
                     <div class="col-lg-2">    
-                    <label>Area Code</label>                           
-                    <input type="text" class="form-control" name="area_code">                                                        
+                        <label>Area Code</label>                           
+                        <input type="text" class="form-control" name="area_code">                                                        
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-lg-4"> 
-                    <label>Contact Number 1</label>                       
-                    <input type="text" class="form-control" name="phone1" required>                                                                            
+                        <label>Contact Number 1</label>                       
+                        <input type="text" class="form-control" name="phone1" required>                                                                            
                     </div>
                     <div class="col-lg-4">    
-                    <label>Contact Number 2</label>                           
-                     <input type="text" class="form-control" name="phone2">                                                                                
+                        <label>Contact Number 2</label>                           
+                        <input type="text" class="form-control" name="phone2">                                                                                
                     </div>
                 </div>                 
-                 <br><br>
+                <br><br>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button type="submit" class="btn btn-success">Submit</button>
@@ -166,14 +165,53 @@ use Cake\Network\Exception\NotFoundException;
             </form>        
         </div>
     </div>
+</div>
+    <!--View Modal -->
+    <div class="modal fade" id="viewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Edit Manager Information</h4>
+            </div>
+            <div class="managerInfo">
+
+            </div>            
+            </form>        
+        </div>
+    </div>
+</div>
     <script>
         $(document).ready(function () {
-
+            $('#example').DataTable();
             $('#date01').datepicker();
             $('#date02').datepicker();
 
             $("#add-prop").click(function () {
                 $("#propModal").modal();
+            });
+
+            $(".view").click(function () {
+                var id = $(this).attr('data');
+                $("#viewModal").modal();
+                $.ajax({
+                    url: "<?php echo \Cake\Routing\Router::Url('/users/edit_manager/');?>" + id,
+                    type: "POST",
+                    asyn: true,
+                    beforeSend: function () {
+                        $(".managerInfo").html('<p>loading.......</p>');
+                    },
+                    success: function (data, textStatus, jqXHR)
+                    {
+                        $(".managerInfo").html(data);
+                    },
+                    error: function (jqXHR, textStatus, errorThrown)
+                    {
+
+                    }
+                });
             });
 
             $("#add-uni").on("submit", function (event) {

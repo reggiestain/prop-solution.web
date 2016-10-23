@@ -40,7 +40,7 @@ use Cake\Network\Exception\NotFoundException;
                     <div class="text-muted bootstrap-admin-box-title"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Vendors <a class="btn btn-sm btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></div>
                 </div>
                 <div class="bootstrap-admin-panel-content">
-                    <table class="table table-striped">
+                    <table id="example" class="table table-striped">
                         <thead>
                             <tr>
                                 <th>Vendor</th>
@@ -422,6 +422,7 @@ use Cake\Network\Exception\NotFoundException;
 </div>
 <script>
     $(document).ready(function () {
+        $('#example').DataTable();
         $('#city').multiselect();
         $('#type').multiselect();
         $('#date01').datepicker();
@@ -435,6 +436,9 @@ use Cake\Network\Exception\NotFoundException;
                 url: "<?php echo \Cake\Routing\Router::Url('/users/edit_vendor/');?>" + id,
                 type: "POST",
                 asyn: true,
+                beforeSend: function () {
+                 $(".vendorInfo").html('<p>loading.......</p>');   
+                },
                 success: function (data, textStatus, jqXHR)
                 {
                     $(".vendorInfo").html(data);
