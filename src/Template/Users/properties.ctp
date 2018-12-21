@@ -37,7 +37,7 @@ use Cake\Network\Exception\NotFoundException;
             <div class="panel panel-default">
 
                 <div class="panel-heading">
-                    <div class="text-muted bootstrap-admin-box-title">Properties <a class="btn btn-xs btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></div>
+                    <div class="text-muted bootstrap-admin-box-title"><h4> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Properties <a class="btn btn-xs btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></h4></div>
                 </div>
                 <div class="bootstrap-admin-panel-content table-responsive">
                     <table id="example" class="table table-bordered">
