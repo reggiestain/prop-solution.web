@@ -998,3 +998,903 @@ Stack Trace:
 #10 {main}
 
 
+2018-12-21 14:44:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:45:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:47:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:50:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:52:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:53:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:53:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:54:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:54:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:55:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:55:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:56:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:57:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:57:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:58:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:58:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:59:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 14:59:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:01:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:01:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:03:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:03:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:04:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:05:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:06:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:06:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:06:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:07:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:08:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:10:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:11:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:12:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:12:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/sort_both.png
+Referer URL: http://localhost:8765/css/jquery.dataTables.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:12:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/sort_asc.png
+Referer URL: http://localhost:8765/css/jquery.dataTables.css
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:12:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:13:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:15:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:16:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-12-21 15:17:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /js/vendor/bootstrap/js/popper.js.map
+Client IP: 127.0.0.1
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
