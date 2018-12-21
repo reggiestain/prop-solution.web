@@ -12,17 +12,17 @@
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('fonts/login/Poppins-Medium.ttf'); 
+  src: url('../fonts/login/Poppins-Medium.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('fonts/login/Poppins-Bold.ttf'); 
+  src: url('../fonts/login/Poppins-Bold.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
-  src: url('fonts/login/Poppins-SemiBold.ttf'); 
+  src: url('../fonts/login/Poppins-SemiBold.ttf'); 
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -218,11 +218,11 @@ iframe {
   height: 100%;
   top: 0;
   left: 0;
-  background: #e8519e;
-  background: -webkit-linear-gradient(bottom, #e8519e, #c77ff2);
-  background: -o-linear-gradient(bottom, #e8519e, #c77ff2);
-  background: -moz-linear-gradient(bottom, #e8519e, #c77ff2);
-  background: linear-gradient(bottom, #e8519e, #c77ff2);
+  background: #c8cbd1;
+  background: -webkit-linear-gradient(bottom, #c8cbd1, #6b6c6d);
+  background: -o-linear-gradient(bottom, #c8cbd1, #6b6c6d);
+  background: -moz-linear-gradient(bottom, #c8cbd1, #6b6c6d);
+  background: linear-gradient(bottom, #c8cbd1, );
   opacity: 0.8;
 }
 
@@ -396,11 +396,11 @@ iframe {
   z-index: -1;
   width: 100%;
   height: 300%;
-  background: #e8519e;
-  background: -webkit-linear-gradient(top, #e8519e, #c77ff2, #e8519e, #c77ff2);
-  background: -o-linear-gradient(top, #e8519e, #c77ff2, #e8519e, #c77ff2);
-  background: -moz-linear-gradient(top, #e8519e, #c77ff2, #e8519e, #c77ff2);
-  background: linear-gradient(top, #e8519e, #c77ff2, #e8519e, #c77ff2);
+  background: #c8cbd1;
+  background: -webkit-linear-gradient(top, #c8cbd1, #6b6c6d, #c8cbd1, #6b6c6d);
+  background: -o-linear-gradient(top, #c8cbd1, #6b6c6d, #c8cbd1, #6b6c6d);
+  background: -moz-linear-gradient(top, #c8cbd1, #6b6c6d, #c8cbd1, #6b6c6d);
+  background: linear-gradient(top, #c8cbd1, #6b6c6d, #c8cbd1, #6b6c6d);
   bottom: -100%;
   left: 0;
 

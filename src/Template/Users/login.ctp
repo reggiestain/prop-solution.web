@@ -19,98 +19,73 @@ use Cake\Datasource\ConnectionManager;
 use Cake\Error\Debugger;
 use Cake\Network\Exception\NotFoundException;
 ?>
-<style>
-    hr.soften {
-        height: 1px;
-        background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
-        background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
-        background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
-        background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
-        border: 0;
-    }
-</style>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-                <!--<img alt="Brand" src="...">-->
-            </a>
-        </div>
-    </div>
-</nav>
-<div class="container">
-    <div style="margin-top:20px">
-        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 hidden-xs hidden-sm">
-            <div class="pull-left login-desc-box-l intro">
-                <p style="margin-left: 50px">
-                    <strong>Property Management Made Easy</strong><br>
-                    Property management can be paperwork-intensive. PROP SOLUTION keeps applications, leases, rent checks and receipts accessible. 
-                    With a simple online payment system, rent payments can be transferred automatically from your tenant’s bank account. 
-                    Designed specifically for the complexities of rental property accounting, from recording transactions to generating reports. 
-                    Quickly audit up to an entire year's worth of transactions on one screen to help spot inconsistencies, missing rents, or double payments.
-                    PROP SOLUTION proactively alerts you when rents are due, which ones are late and when lease expirations are approaching.
-                    Open a direct line of communication with your tenants to streamline repair requests and send tenants reminders and alerts automatically. 
-                    <br><br>
-                    <button type="button" class="btn btn-primary">Need Help</button>
-                    <button type="button" class="btn btn-warning">Find out more</button>
-                </p>
-                <br />
-                <br />
-                <hr class="soften" />
-            </div>           
-        </div>
-        <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 hidden-xs hidden-sm">
-            <div class="pull-left login-desc-box-l intro">
-                                <?php echo $this->Html->image('phone.jpg',['style'=>'width:210px;height:330px']);?>
-                <br />
-                <br />
-                <hr class="soften" />      
-            </div>  
+<div class="limiter">
+		<div class="container-login100">
+			<div class="login100-more" style="background-image: url('../img/bg-01.jpg');"></div>
 
-        </div>
-        <div class="col-lg-4">
-            
-            <!-- <div class="alert alert-info">
-                 <a class="close" data-dismiss="alert" href="#">&times;</a>
-                 Press enter key or click the Submit button
-             </div>-->
-            <form method="post" action="<?php echo \Cake\Routing\Router::Url('/users/login');?>" class="bootstrap-admin-login-form">
-                <?php  
-                echo $this->Flash->render();
-                echo $this->Flash->render('auth');
-                ?>
-                <h4>Sign In</h4>
-                <div class="input-group">
-                    <input class="form-control" type="text" name="email" placeholder="E-mail" required>
-                    <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user"></i></span>
-                </div>
-                <br>                
-                <div class="input-group">
-                    <input type="password" class="form-control" name="password" placeholder="Password" required>
-                    <span class="input-group-addon" id="basic-addon2"><i class="fa fa-lock"></i></span>
-                </div>
-                <div class="form-group">
-                    <div style="margin-top:5px"> <a href="#">Forgot password?</a> </div>                   
-                    <input type="checkbox" name="remember_me">
-                    Remember me                    
-                </div>
-                <button class="btn btn-success" type="submit">Login</button>
-                <a href="#" id="reg" class="btn btn-primary pull-right" type="submit">Register</a>
-            </form>
-            <br />
-            <br />
-            <hr class="soften" />
-        </div>
-    </div>
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+				<form class="login100-form validate-form" method="post" action="<?php echo \Cake\Routing\Router::Url('/users/login');?>">					
+                    <span class="login100-form-title p-b-59">
+						Sign in
+					</span>
+                     <?php  
+                     echo $this->Flash->render();
+                     echo $this->Flash->render('auth');
+                     ?>
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<span class="label-input100">Email</span>
+						<input class="input100" type="text" name="email" placeholder="Email addess...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<span class="label-input100">Password</span>
+						<input class="input100" type="text" name="password" placeholder="*************">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="flex-m w-full p-b-33">
+						<div class="contact100-form-checkbox">
+							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+							<label class="label-checkbox100" for="ckb1">
+								<span class="txt1">
+									I agree to the
+									<a href="#" class="txt2 hov1">
+										Terms of User
+									</a>
+								</span>
+							</label>
+						</div>
+
+						
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+								Sign in
+							</button>
+						</div>
+
+						<a href="#" id="reg" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
+                            <b>Sign Up</b>
+							<i class="fa fa-long-arrow-right m-l-5"></i>
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header text-center">                    
+                    <h3 class="modal-title w-100" id="myModalLabel">PROP SOLUTION</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <h4 class="modal-title" id="myModalLabel">PROP SOLUTION</h4>
                 </div>
                 <form id="register" action="<?php echo \Cake\Routing\Router::Url('/users/signup');?>">
                 <div class="modal-body">
