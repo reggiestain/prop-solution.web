@@ -99,7 +99,7 @@ class UsersController extends AppController {
 
     public function index() {
         $this->set('title', 'Home');
-        $this->layout = 'index';
+        $this->viewBuilder()->layout('index');
     }
 
     public function applogin() {
@@ -126,7 +126,7 @@ class UsersController extends AppController {
         }
         echo json_encode($message);
         exit();
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
 
     //}
@@ -170,7 +170,7 @@ class UsersController extends AppController {
                 }
             }
             $this->set('title', 'Sign Up');
-            $this->layout = '';
+           $this->viewBuilder()->layout(false);
         }
     }
 
@@ -191,7 +191,7 @@ class UsersController extends AppController {
                 }
             }
             $this->set('title', 'Sign Up');
-            $this->layout = '';
+            $this->viewBuilder()->layout(false);
         }
     }
 
@@ -204,7 +204,7 @@ class UsersController extends AppController {
         $this->set('userId', $this->Auth->user('id'));
         $this->set('vendor', $vendor);
         $this->set('title', 'Dashboard');
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function properties() {
@@ -218,7 +218,7 @@ class UsersController extends AppController {
         $this->set('ledger', $ledger);
         $this->set('userId', $this->Auth->user('id'));
         $this->set('title','Properties');
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function edit_property($id) {
@@ -232,7 +232,7 @@ class UsersController extends AppController {
             $this->set('propInfo', $propInfo);
             
         }
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
     
     public function update_prop($id) {
@@ -248,7 +248,7 @@ class UsersController extends AppController {
             }
         }
         $this->set('title','Properties');
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function addcomplaint() {
@@ -520,7 +520,7 @@ class UsersController extends AppController {
         $this->set('ledger', $ledger);
         $this->set('tenants', $tenants);
         $this->set('UserId', $this->Auth->user('id'));
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function add_tenant() {

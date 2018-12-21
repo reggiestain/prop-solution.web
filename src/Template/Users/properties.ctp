@@ -40,7 +40,7 @@ use Cake\Network\Exception\NotFoundException;
                     <div class="text-muted bootstrap-admin-box-title">Properties <a class="btn btn-xs btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></div>
                 </div>
                 <div class="bootstrap-admin-panel-content table-responsive">
-                    <table id="example" class="table table-striped">
+                    <table id="example" class="table table-bordered">
                         <thead>
                             <tr>
                                 <th>Property</th>
