@@ -52081,3 +52081,24 @@ Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseError
 
 
 
+2018-12-21 14:40:35 Notice: Notice (8): Undefined variable: title in [/var/www/prop-solution.web/src/Template/Layout/default.ctp, line 24]
+Request URL: /users/images/icons/favicon.ico
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/default.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 319
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 194
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 180
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 164
+[main] - [internal], line ??
+
+
+
