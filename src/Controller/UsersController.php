@@ -16,9 +16,6 @@
 
 namespace App\Controller;
 
-require_once(ROOT . DS . 'vendor' . DS . 'excel' . DS . 'PHPExcel.php');
-require_once(ROOT . DS . 'vendor' . DS . 'excel' . DS . 'PHPExcel' . DS . 'Writer' . DS . 'Excel2007.php');
-require_once(ROOT . DS . 'vendor' . DS . 'tcpdf' . DS . 'tcpdf.php');
 
 use Cake\ORM\TableRegistry;
 use Cake\I18n\Time;
@@ -27,9 +24,7 @@ use Cake\Event\Event;
 use Cake\Network\Exception\NotFoundException;
 use Cake\Network\Request;
 use Cake\Network\Email\Email;
-use PHPExcel;
-use PHPExcel_Writer_Excel2007;
-use tcpdf;
+
 use Cake\Network\Http\Client;
 use Cake\View\Helper\RssHelper;
 
@@ -77,11 +72,6 @@ class UsersController extends AppController {
 
     public function beforeFilter(\Cake\Event\Event $event) {
         parent::beforeFilter($event);
-        $this->response->header('Access-Control-Allow-Origin', '*');
-        //$this->response->header('Access-Control-Allow-Methods', '*');
-        //$this->response->header('Access-Control-Allow-Headers', 'X-Requested-With');
-        //$this->response->header('Access-Control-Allow-Headers', 'Content-Type, x-xsrf-token');
-        //$this->response->header('Access-Control-Max-Age', '172800');
 
         $this->UsersTable = TableRegistry::get('users');
         $this->ProfilesTable = TableRegistry::get('profiles');
@@ -160,6 +150,7 @@ class UsersController extends AppController {
             $this->Flash->error(__('Invalid email or password.'));
             $this->set('title', 'Login');
         }
+       $this->viewBuilder()->layout('login');
     }
 
     public function appsignup() {

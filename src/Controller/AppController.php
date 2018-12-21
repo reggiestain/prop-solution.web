@@ -16,9 +16,6 @@
 
 namespace App\Controller;
 
-require_once(ROOT . DS . 'vendor' . DS . 'excel' . DS . 'PHPExcel.php');
-require_once(ROOT . DS . 'vendor' . DS . 'tcpdf' . DS . 'tcpdf.php');
-
 use Cake\I18n\Time;
 use Cake\ORM\TableRegistry;
 use Cake\Controller\Controller;

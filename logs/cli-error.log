@@ -1,0 +1,12 @@
+2018-12-21 00:33:59 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Serve" could not be found.
+Exception Attributes: array (
+  'class' => 'Serve',
+)
+Stack Trace:
+#0 /var/www/prop-solution.web/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(223): Cake\Console\ShellDispatcher->findShell('Serve')
+#1 /var/www/prop-solution.web/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /var/www/prop-solution.web/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /var/www/prop-solution.web/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
