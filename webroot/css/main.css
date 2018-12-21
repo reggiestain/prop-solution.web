@@ -165,7 +165,7 @@ iframe {
 }
 
 .hov1:hover {
-  color: #c87ef0;
+  color: #12ed21;
 }
 
 
@@ -396,14 +396,13 @@ iframe {
   z-index: -1;
   width: 100%;
   height: 300%;
-  background: #c8cbd1;
-  background: -webkit-linear-gradient(top, #c8cbd1, #6b6c6d, #c8cbd1, #6b6c6d);
-  background: -o-linear-gradient(top, #c8cbd1, #6b6c6d, #c8cbd1, #6b6c6d);
-  background: -moz-linear-gradient(top, #c8cbd1, #6b6c6d, #c8cbd1, #6b6c6d);
-  background: linear-gradient(top, #c8cbd1, #6b6c6d, #c8cbd1, #6b6c6d);
+  background: #78a5ed;
+  background: -webkit-linear-gradient(top, #78a5ed, #1266ed, #78a5ed, #1266ed);
+  background: -o-linear-gradient(top, #78a5ed, #1266ed, #78a5ed, #1266ed);
+  background: -moz-linear-gradient(top, #78a5ed, #1266ed, #78a5ed, #1266ed);
+  background: linear-gradient(top, #78a5ed, #1266ed, #78a5ed, #1266ed);
   bottom: -100%;
   left: 0;
-
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;

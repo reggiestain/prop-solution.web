@@ -19,9 +19,46 @@ use Cake\Datasource\ConnectionManager;
 use Cake\Error\Debugger;
 use Cake\Network\Exception\NotFoundException;
 ?>
+<style>
+.bg-overlay {
+    //background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    background-position: center center;
+    color: #fff;
+    //height: 450px;
+    padding: 50px;
+}
+
+.bg-no-overlay {
+    //background: url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+}    
+</style>
 <div class="limiter">
 		<div class="container-login100">
-			<div class="login100-more" style="background-image: url('../img/bg-01.jpg');"></div>
+            <div class="login100-more bg-overlay" style="background-image: url('../img/bg-01.jpg');">
+                <div class="col-xs-1 text-center">
+                    
+                    <h1>Property Management Made Easy</h1><br>
+                    Property management can be paperwork-intensive. PROP SOLUTION keeps applications, leases, rent checks and receipts accessible. 
+                    With a simple online payment system, rent payments can be transferred automatically from your tenant’s bank account. 
+                    Designed specifically for the complexities of rental property accounting, from recording transactions to generating reports. 
+                    Quickly audit up to an entire year's worth of transactions on one screen to help spot inconsistencies, missing rents, or double payments.
+                    PROP SOLUTION proactively alerts you when rents are due, which ones are late and when lease expirations are approaching.
+                    Open a direct line of communication with your tenants to streamline repair requests and send tenants reminders and alerts automatically. 
+                    <br><br>
+                    <button type="button" class="btn btn-primary">Need Help</button>
+                    <button type="button" class="btn btn-warning">Find out more</button>
+               
+       
+	</div>
+            </div>
 
 			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
 				<form class="login100-form validate-form" method="post" action="<?php echo \Cake\Routing\Router::Url('/users/login');?>">					
@@ -40,7 +77,7 @@ use Cake\Network\Exception\NotFoundException;
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
 						<span class="label-input100">Password</span>
-						<input class="input100" type="text" name="password" placeholder="*************">
+                        <input class="input100" type="password" name="password" placeholder="*************">
 						<span class="focus-input100"></span>
 					</div>
 
@@ -94,16 +131,16 @@ use Cake\Network\Exception\NotFoundException;
                         Enter your email address and create a password below. You will receive and email confirmation.    
                     </p>                    
                         <div class="form-group">
-                            <label for="formGroupExampleInput">Enter your email address (This will be your username)</label>
+                            <label>Enter your email address (This will be your username)</label>
                             <input type="email" class="form-control" id="formGroupExampleInput" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="formGroupExampleInput2">Create Password</label>
-                            <input type="password" class="form-control" id="formGroupExampleInput2" name="password" required>
+                            <label>Create Password</label>
+                            <input type="password" class="form-control"  name="password" required>
                         </div>
                         <div class="form-group">
-                            <label for="formGroupExampleInput2">Confirm Password</label>
-                            <input type="password" class="form-control" id="formGroupExampleInput2" name="confirm_pass" required>
+                            <label>Confirm Password</label>
+                            <input type="password" class="form-control"  name="confirm_pass" required>
                         </div>
                     
                     <br>
