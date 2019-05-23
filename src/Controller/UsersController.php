@@ -230,6 +230,7 @@ class UsersController extends AppController {
             $this->set('profile', $profile);
             $this->set('userId', $this->Auth->user('id'));
             $this->set('propInfo', $propInfo);
+            $this->set('id', $id);
             
         }
         $this->viewBuilder()->layout(false);

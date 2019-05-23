@@ -112,6 +112,9 @@ $cakeDescription = '';
        
         <?php echo $this->Html->script('bootstrap-switch');?>
         <?php echo $this->Html->script('multi-select');?>
+         <?php echo $this->Html->script('jquery.dataTables');?>
+        <?php echo $this->Html->script('Datatable.bootstrap');?>
+        <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
         <script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
     </head>
     <body class="bootstrap-admin-with-small-navbar">

@@ -40,7 +40,7 @@ use Cake\Network\Exception\NotFoundException;
                     <div class="text-muted bootstrap-admin-box-title"><h4><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Vendors <a class="btn btn-sm btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></h4></div>
                 </div>
                 <div class="bootstrap-admin-panel-content">
-                    <table id="example" class="table table-bordered">
+                    <table id="example" class="table table-hover">
                         <thead>
                             <tr>
                                 <th>Vendor</th>

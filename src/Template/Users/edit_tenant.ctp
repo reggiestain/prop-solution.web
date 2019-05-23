@@ -220,8 +220,8 @@ use Cake\Network\Exception\NotFoundException;
                 <br>
                 <div class="row">
                     <div class="col-lg-12">                        
-                        <label class="checkbox-inline"><input type="checkbox" name="pets" value="<?php echo $tentantInfo->pets;?>" <?php if(!empty($tentantInfo->pets)){echo 'checked';};?>><b>No Pets</b></label>
-                        <label class="checkbox-inline"><input type="checkbox" name="smoking" value="<?php echo $tentantInfo->smoking;?>" <?php if(!empty($tentantInfo->smoking)){echo 'checked';};?>><b>No Smoking</b></label>                                                                          
+                        <label class="checkbox-inline"><input type="checkbox" name="pets" value="<?php echo $tenantInfo->pets;?>" <?php if(!empty($tentantInfo->pets)){echo 'checked';};?>><b>No Pets</b></label>
+                        <label class="checkbox-inline"><input type="checkbox" name="smoking" value="<?php echo $tenantInfo->smoking;?>" <?php if(!empty($tentantInfo->smoking)){echo 'checked';};?>><b>No Smoking</b></label>                                                                          
                     </div>
                 </div>
                 <br>
