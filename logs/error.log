@@ -1898,3 +1898,1174 @@ Stack Trace:
 #10 {main}
 
 
+2019-05-10 22:47:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/icons/favicon.ico
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 22:48:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 22:48:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/sort_both.png
+Referer URL: http://localhost:8765/css/jquery.dataTables.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 22:48:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/sort_asc.png
+Referer URL: http://localhost:8765/css/jquery.dataTables.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 22:48:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 22:48:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/sort_both.png
+Referer URL: http://localhost:8765/css/jquery.dataTables.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 22:48:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/sort_asc.png
+Referer URL: http://localhost:8765/css/jquery.dataTables.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 22:48:58 Error: [Error] Class 'App\Controller\TCPDF' not found
+Request URL: /users/contract/3
+Referer URL: http://localhost:8765/users/tenants
+Stack Trace:
+#0 [internal function]: App\Controller\UsersController->contract('3')
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(121): Cake\Controller\Controller->invokeAction()
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2019-05-10 23:06:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:08:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:08:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/sort_both.png
+Referer URL: http://localhost:8765/css/jquery.dataTables.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:08:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/sort_asc.png
+Referer URL: http://localhost:8765/css/jquery.dataTables.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:10:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:10:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/sort_both.png
+Referer URL: http://localhost:8765/css/jquery.dataTables.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:10:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/sort_asc.png
+Referer URL: http://localhost:8765/css/jquery.dataTables.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:11:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:12:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:12:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:12:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:12:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-10 23:13:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:16:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/icons/favicon.ico
+Referer URL: http://localhost:8765/
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:16:44 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::images() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/images/icons/favicon.ico
+Referer URL: http://localhost:8765/users/login
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(121): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2019-05-24 00:16:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:17:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:18:19 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::compliants() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'compliants',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/compliants
+Referer URL: http://localhost:8765/users/properties
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(121): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2019-05-24 00:18:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:18:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:19:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:19:23 Error: [Error] Class 'App\Controller\TCPDF' not found
+Request URL: /users/contract/3
+Referer URL: http://localhost:8765/users/tenants
+Stack Trace:
+#0 [internal function]: App\Controller\UsersController->contract('3')
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(121): Cake\Controller\Controller->invokeAction()
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2019-05-24 00:22:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:25:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:26:11 Error: [Error] Class 'App\Controller\TCPDF' not found
+Request URL: /users/contract/3
+Referer URL: http://localhost:8765/users/tenants
+Stack Trace:
+#0 [internal function]: App\Controller\UsersController->contract('3')
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(121): Cake\Controller\Controller->invokeAction()
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2019-05-24 00:26:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:27:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:28:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:28:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:31:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:31:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:31:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:32:34 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::compliants() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'compliants',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/compliants
+Referer URL: http://localhost:8765/users/properties
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(121): Cake\Controller\Controller->invokeAction()
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 {main}
+
+
+2019-05-24 00:32:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:32:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:33:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:33:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:36:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:38:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:40:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:40:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:42:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:42:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:43:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2019-05-24 00:43:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://localhost:8765/css/cake-style.css
+Stack Trace:
+#0 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(80): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 C:\wamp64\www\prop-solution.web\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 C:\wamp64\www\prop-solution.web\webroot\index.php(38): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+

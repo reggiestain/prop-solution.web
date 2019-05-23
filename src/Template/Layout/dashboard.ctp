@@ -107,11 +107,13 @@ $cakeDescription = '';
            <script type="text/javascript" src="js/respond.min.js"></script>
         <![endif]-->
         <?php echo $this->Html->script('jquery');?>
-        <?php echo $this->Html->script('http://code.jquery.com/jquery-2.0.3.min');?>
+        <?php //echo $this->Html->script('http://code.jquery.com/jquery-2.0.3.min');?>
         <?php echo $this->Html->script('bootstrap.min');?>   
-        <?php echo $this->Html->script('jquery.dataTables');?>
+       
         <?php echo $this->Html->script('bootstrap-switch');?>
         <?php echo $this->Html->script('multi-select');?>
+         <?php echo $this->Html->script('jquery.dataTables');?>
+        <?php echo $this->Html->script('Datatable.bootstrap');?>
         <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
 
     </head>

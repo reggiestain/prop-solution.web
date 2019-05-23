@@ -99,7 +99,7 @@ class UsersController extends AppController {
 
     public function index() {
         $this->set('title', 'Home');
-        $this->layout = 'index';
+        $this->viewBuilder()->layout('index');
     }
 
     public function applogin() {
@@ -126,7 +126,7 @@ class UsersController extends AppController {
         }
         echo json_encode($message);
         exit();
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
 
     //}
@@ -170,7 +170,7 @@ class UsersController extends AppController {
                 }
             }
             $this->set('title', 'Sign Up');
-            $this->layout = '';
+            $this->viewBuilder()->layout(false);
         }
     }
 
@@ -191,7 +191,7 @@ class UsersController extends AppController {
                 }
             }
             $this->set('title', 'Sign Up');
-            $this->layout = '';
+            $this->viewBuilder()->layout(false);
         }
     }
 
@@ -204,7 +204,8 @@ class UsersController extends AppController {
         $this->set('userId', $this->Auth->user('id'));
         $this->set('vendor', $vendor);
         $this->set('title', 'Dashboard');
-        $this->layout = 'dashboard';
+        
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function properties() {
@@ -218,7 +219,8 @@ class UsersController extends AppController {
         $this->set('ledger', $ledger);
         $this->set('userId', $this->Auth->user('id'));
         $this->set('title','Properties');
-        $this->layout = 'dashboard';
+        
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function edit_property($id) {
@@ -232,7 +234,7 @@ class UsersController extends AppController {
             $this->set('propInfo', $propInfo);
             
         }
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
     
     public function update_prop($id) {
@@ -248,7 +250,7 @@ class UsersController extends AppController {
             }
         }
         $this->set('title','Properties');
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function addcomplaint() {
@@ -263,19 +265,19 @@ class UsersController extends AppController {
         }
         echo json_encode($message);
         exit();
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
 
     public function appcomplaints($id) {
         $compliants = $this->CompliantsTable->find()->where(['tenant_id'=>$id])->contain(['ComplaintComments']);
         $this->set('compliants', $compliants);
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
 
     public function appview_complaint($id) {
         $compliant = $this->ComplaintsTable->get($id, ['contain' => ['ComplaintComments']]);
         $this->set('compliant', $compliant);
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
 
     public function appcompliant_reply() {
@@ -290,7 +292,7 @@ class UsersController extends AppController {
         }
         echo json_encode($message);
         exit();
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
 
     public function appadd_prop() {
@@ -307,7 +309,7 @@ class UsersController extends AppController {
         }
 
         $this->set('prop', $prop);
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function admincompliant_reply() {
@@ -333,7 +335,7 @@ class UsersController extends AppController {
     public function admin_compliantinfo($id) {
         $CompInfo = $this->CompliantsTable->get($id, ['contain' => ['ComplaintComments','Vendors']]);
         $this->set('CompInfo', $CompInfo);
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
 
     public function managers() {
@@ -342,7 +344,7 @@ class UsersController extends AppController {
         $this->set('province', $province);
         $this->set('profiles', $profiles);
         $this->set('title','Managers');
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function add_profile() {
@@ -359,7 +361,7 @@ class UsersController extends AppController {
         }
 
         $this->set('profile', $prop);
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function edit_manager($id) {
@@ -370,7 +372,7 @@ class UsersController extends AppController {
             $this->set('managerInfo', $managerInfo);
             $this->set('province', $province);
         }
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
 
     public function update_manager($id) {
@@ -386,7 +388,8 @@ class UsersController extends AppController {
             }
         }
         $this->set('title','Managers');
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
+        
     }
 
     public function ledger() {
@@ -398,7 +401,7 @@ class UsersController extends AppController {
         $this->set('ledgers', $ledgers);
         $this->set('properties', $properties);
         $this->set('banks', $banks);
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function add_ledger() {
@@ -414,7 +417,7 @@ class UsersController extends AppController {
             }
         }
         $this->set('ledger', $prop);
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function vendors() {
@@ -428,7 +431,7 @@ class UsersController extends AppController {
         $this->set('city', $cities);
         $this->set('userID', $this->Auth->user('id'));
         $this->set('title', 'Vendor Information');
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function add_vendor() {
@@ -456,7 +459,7 @@ class UsersController extends AppController {
             }
         }
         $this->set('vendor', $vendor);
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function edit_vendor($id) {
@@ -476,8 +479,9 @@ class UsersController extends AppController {
             $this->set('userID', $this->Auth->user('id'));
             $this->set('vendorInfo', $vendorInfo);
             $this->set('option', $options);
+            $this->set('id', $id);
         }
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
 
     public function update_vendor($id) {
@@ -509,7 +513,7 @@ class UsersController extends AppController {
             $this->Flash->error(__('An error occured, please try again.'));
             return $this->redirect(['action' => 'vendors']);
         }
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function tenants() {
@@ -520,7 +524,7 @@ class UsersController extends AppController {
         $this->set('ledger', $ledger);
         $this->set('tenants', $tenants);
         $this->set('UserId', $this->Auth->user('id'));
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function add_tenant() {
@@ -553,7 +557,7 @@ class UsersController extends AppController {
             }
         }
         $this->set('tenant', $tenant);
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function edit_tenant($id) {
@@ -564,8 +568,9 @@ class UsersController extends AppController {
             $ledger = $this->LedgerTable->find('list', ['valueField' => ['ledger_name']]);
             $this->set('ledger', $ledger);
             $this->set('tenantInfo', $tenantInfo);
+            $this->set('id', $id);
         }
-        $this->layout = '';
+        $this->viewBuilder()->layout(false);
     }
 
     public function update_tenant($id) {
@@ -578,8 +583,7 @@ class UsersController extends AppController {
             $this->Flash->error(__('An error occured, please try again.'));
             return $this->redirect(['action' => 'tenants']);
         }
-
-        $this->layout = 'dashboard';
+        $this->viewBuilder()->layout('dashboard');
     }
 
     public function contract($id) {
