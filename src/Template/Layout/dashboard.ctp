@@ -26,7 +26,7 @@ $cakeDescription = '';
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Bootstrap Docs -->
-        <link href="http://getbootstrap.com/docs-assets/css/docs.css" rel="stylesheet" media="screen">
+        <!--<link href="http://getbootstrap.com/docs-assets/css/docs.css" rel="stylesheet" media="screen">-->
         <!-- Bootstrap -->
         <?php echo $this->Html->css('bootstrap.min.css');?>
         <?php //echo $this->Html->css('ckeditor.css') ;?>
@@ -112,10 +112,7 @@ $cakeDescription = '';
        
         <?php echo $this->Html->script('bootstrap-switch');?>
         <?php echo $this->Html->script('multi-select');?>
-         <?php echo $this->Html->script('jquery.dataTables');?>
-        <?php echo $this->Html->script('Datatable.bootstrap');?>
-        <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
-
+        <script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
     </head>
     <body class="bootstrap-admin-with-small-navbar">
        <?php echo $this->element('admin-header');?>

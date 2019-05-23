@@ -262,12 +262,8 @@ use Cake\Network\Exception\NotFoundException;
 <?php echo $this->Form->end();?>
 
 <script>
-        tinymce.init({
-            selector: '#mytextarea3'
-        });
-        tinymce.init({
-            selector: '#mytextarea4'
-        });
+        CKEDITOR.replace('mytextarea3');
+        CKEDITOR.replace('mytextarea4');
         //$("#curr1").bootstrapSwitch();
         $('#date10').datepicker();
         $('#date11').datepicker();

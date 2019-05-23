@@ -37,10 +37,10 @@ use Cake\Network\Exception\NotFoundException;
             <div class="panel panel-default">
 
                 <div class="panel-heading">
-                    <div class="text-muted bootstrap-admin-box-title">Owner / Manager <a class="btn btn-sm btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></div>
+                    <div class="text-muted bootstrap-admin-box-title"><h4> Owner / Manager <a class="btn btn-sm btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></h4></div>
                 </div>
                 <div class="bootstrap-admin-panel-content">
-                    <table id="example" class="table table-striped">
+                    <table id="example" class="table table-bordered">
                         <thead>
                             <tr>
                                 <th>First Name</th>

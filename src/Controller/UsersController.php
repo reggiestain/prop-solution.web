@@ -170,7 +170,7 @@ class UsersController extends AppController {
                 }
             }
             $this->set('title', 'Sign Up');
-            $this->viewBuilder()->layout(false);
+           $this->viewBuilder()->layout(false);
         }
     }
 
@@ -204,7 +204,6 @@ class UsersController extends AppController {
         $this->set('userId', $this->Auth->user('id'));
         $this->set('vendor', $vendor);
         $this->set('title', 'Dashboard');
-        
         $this->viewBuilder()->layout('dashboard');
     }
 
@@ -219,7 +218,6 @@ class UsersController extends AppController {
         $this->set('ledger', $ledger);
         $this->set('userId', $this->Auth->user('id'));
         $this->set('title','Properties');
-        
         $this->viewBuilder()->layout('dashboard');
     }
 

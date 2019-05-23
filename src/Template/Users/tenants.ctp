@@ -37,10 +37,10 @@ use Cake\Network\Exception\NotFoundException;
             <div class="panel panel-default">
 
                 <div class="panel-heading">
-                    <div class="text-muted bootstrap-admin-box-title"> Tenants <a class="btn btn-sm btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></div>
+                    <div class="text-muted bootstrap-admin-box-title"> <h4><span class="fa fa-users" aria-hidden="true"></span> Tenants <a class="btn btn-sm btn-success pull-right" id="add-prop"><i class="fa fa-pencil"></i> New</a></h4></div>
                 </div>
                 <div class="bootstrap-admin-panel-content">
-                    <table id="example" class="table table-striped">
+                    <table id="example" class="table table-bordered">
                         <thead>
                             <tr>
                                 <th>First Name</th>
@@ -359,12 +359,9 @@ use Cake\Network\Exception\NotFoundException;
 </div>
 <script>
     $(document).ready(function () {
-        tinymce.init({
-            selector: '#mytextarea'
-        });
-        tinymce.init({
-            selector: '#mytextarea2'
-        });
+        CKEDITOR.replace('mytextarea');
+        CKEDITOR.replace('mytextarea2');
+        
         $('#example').DataTable();
         $('#date02').datepicker();
         $('#date03').datepicker();
@@ -385,7 +382,7 @@ use Cake\Network\Exception\NotFoundException;
 
         $(".btn-primary").click(function () {
             var id = $(this).attr('var');
-            tinyMCE.editors=[];
+            //tinyMCE.editors=[];
             $('#editModal').modal('show');
             $.ajax({
                 url: "<?php echo \Cake\Routing\Router::Url('/users/edit_tenant/');?>" + id,
