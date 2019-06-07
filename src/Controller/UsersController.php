@@ -89,6 +89,7 @@ class UsersController extends AppController {
         $this->CityTable = TableRegistry::get('city');
         $this->VendorCityTable = TableRegistry::get('vendor_city');
         $this->VendorMaintenanceTable = TableRegistry::get('vendor_maintenance');
+        $this->PropTypeTable = TableRegistry::get('prop_type');
 
         $this->Auth->allow(['index', 'applogin', 'appsignup', 'login', 'signup', 'logout']);
 
@@ -210,12 +211,14 @@ class UsersController extends AppController {
     public function properties() {
         $props = $this->PropertyTable->find()->where(['property.user_id' => $this->Auth->user('id')])->contain(['Province', 'Managers']);
         $province = $this->ProvinceTable->find('list');
+        $propTypes = $this->PropTypeTable->find('list');
         $profile = $this->ManagersTable->find('list', ['valueField' => ['full_name']]);
         $ledger = $this->LedgerTable->find('list', ['valueField' => ['ledger_name']]);
         $this->set('props', $props);
         $this->set('province', $province);
         $this->set('profile', $profile);
         $this->set('ledger', $ledger);
+        $this->set('propTypes', $propTypes);
         $this->set('userId', $this->Auth->user('id'));
         $this->set('title','Properties');
         $this->viewBuilder()->layout('dashboard');
@@ -226,10 +229,12 @@ class UsersController extends AppController {
             $propInfo = $this->PropertyTable->get($id, ['contain' => ['Province','Managers']]);
             $province = $this->ProvinceTable->find('list');
             $profile = $this->ManagersTable->find('list', ['valueField' => ['full_name']]);
+            $propTypes = $this->PropTypeTable->find('list');
             $this->set('province', $province);
             $this->set('profile', $profile);
             $this->set('userId', $this->Auth->user('id'));
             $this->set('propInfo', $propInfo);
+            $this->set('propTypes', $propTypes);
             $this->set('id', $id);
             
         }

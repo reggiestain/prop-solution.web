@@ -34,6 +34,30 @@ use Cake\Log\Log;
  */
 class AppController extends Controller {
 
+    public $UsersTable;
+    public $ProfilesTable;
+    public $RolesTable;
+    public $AttachmentsTable;
+    public $ProvincesTable;
+    public $CompaniesTable;
+    public $TitlesTable;
+    public $UserPhotosTable;
+    public $AuditLogsTable;
+    public $ProvinceTable;
+    public $PaymentsTable;
+    public $PropertyTable;
+    public $LedgerTable;
+    public $BanksTable;
+    public $VendorsTable;
+    public $MaintenanceTable;
+    public $TenantsTable;
+    public $ManagersTable;
+    public $CompliantsTable;
+    public $CompCommentsTable;
+    public $CityTable;
+    public $VendorCityTable;
+    public $VendorMaintenanceTable;
+    public $Datetime;
     /**
      * Initialization hook method.
      *
@@ -42,6 +66,24 @@ class AppController extends Controller {
      * @return void
      */
     public function initialize() {
+        
+        $this->UsersTable = TableRegistry::get('users');
+        $this->ProfilesTable = TableRegistry::get('profiles');
+        $this->DRequestsTable = TableRegistry::get('requests');
+        $this->PropertyTable = TableRegistry::get('property');
+        $this->ProvinceTable = TableRegistry::get('province');
+        $this->LedgerTable = TableRegistry::get('ledger');
+        $this->BanksTable = TableRegistry::get('banks');
+        $this->VendorsTable = TableRegistry::get('vendors');
+        $this->MaintenanceTable = TableRegistry::get('maintenance');
+        $this->TenantsTable = TableRegistry::get('tenants');
+        $this->ManagersTable = TableRegistry::get('managers');
+        $this->CompliantsTable = TableRegistry::get('complaints');
+        $this->CompCommentsTable = TableRegistry::get('complaint_comments');
+        $this->CityTable = TableRegistry::get('city');
+        $this->VendorCityTable = TableRegistry::get('vendor_city');
+        $this->VendorMaintenanceTable = TableRegistry::get('vendor_maintenance');
+        $this->PropTypeTable = TableRegistry::get('prop_type');
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');

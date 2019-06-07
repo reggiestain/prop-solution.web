@@ -179,11 +179,11 @@ use Cake\Network\Exception\NotFoundException;
             $("#replyModal").modal();
         });
 
-        $(".view").click(function () {
+        $("#add-prop").click(function () {
             var compId = $(this).attr("var");
             $("#viewModal").modal();
             $.ajax({
-                url: "<?php echo \Cake\Routing\Router::Url('/users/admin_compliantinfo/');?>" + compId,
+                url: "<?php echo \Cake\Routing\Router::Url('tenant/phoneID');?>",
                 type: "POST",
                 asyn: true,
                 beforeSend: function () {
