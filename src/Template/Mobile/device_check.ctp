@@ -28,7 +28,7 @@ use Cake\Network\Exception\NotFoundException;
         </span>
     </div>
     <div class="wrap-input100 validate-input m-b-10" data-validate = "Passworddata is required">
-        <input class="input100" type="password" name="password" placeholder="Username">
+        <input class="input100" type="password" name="password">
         <span class="focus-input100"></span>
         <span class="symbol-input100">
             <i class="fa fa-lock"></i>
