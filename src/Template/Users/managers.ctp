@@ -85,7 +85,7 @@ use Cake\Network\Exception\NotFoundException;
                 <h4 class="modal-title" id="myModalLabel">Add Owner / Manager</h4>
             </div>
             <!--<form id="add-unit" action="<?php //echo \Cake\Routing\Router::Url('/users/signup');?>">-->
-            <?php echo $this->Form->create($profile,['url' => ['action' => 'add_profile']]);?>
+            <?php echo $this->Form->create($profiles,['url' => ['action' => 'add_profile']]);?>
             <div class="modal-body"> 
                 <div class="row">
                     <div class="form-group col-lg-6">
