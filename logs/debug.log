@@ -11873,3 +11873,63 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
 
 
 
+2019-06-07 19:48:52 Notice: Notice (8): Undefined variable: title in [/var/www/prop-solution.web/src/Template/Layout/default.ctp, line 24]
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://34.73.77.206/css/cake-style.css
+Client IP: 165.73.55.138
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/default.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 319
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 194
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 180
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 164
+[main] - [internal], line ??
+
+
+
+2019-06-07 19:49:17 Notice: Notice (8): Undefined variable: prop in [/var/www/prop-solution.web/src/Template/Users/properties.ctp, line 91]
+Request URL: /users/properties
+Referer URL: http://34.73.77.206/users/dashboard
+Client IP: 165.73.55.138
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Users/properties.ctp, line 91
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::render() - CORE/src/View/View.php, line 597
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 38
+
+
+
+2019-06-07 19:49:18 Notice: Notice (8): Undefined variable: title in [/var/www/prop-solution.web/src/Template/Layout/default.ctp, line 24]
+Request URL: /img/safer_schools_logo.jpg
+Referer URL: http://34.73.77.206/css/cake-style.css
+Client IP: 165.73.55.138
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/default.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Error\ExceptionRenderer::_outputMessage() - CORE/src/Error/ExceptionRenderer.php, line 319
+Cake\Error\ExceptionRenderer::render() - CORE/src/Error/ExceptionRenderer.php, line 194
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 144
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 180
+Cake\Error\BaseErrorHandler::wrapAndHandleException() - CORE/src/Error/BaseErrorHandler.php, line 164
+[main] - [internal], line ??
+
+
+
