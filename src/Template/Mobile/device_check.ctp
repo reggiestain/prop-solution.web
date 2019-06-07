@@ -27,6 +27,13 @@ use Cake\Network\Exception\NotFoundException;
             <i class="fa fa-user"></i>
         </span>
     </div>
+    <div class="wrap-input100 validate-input m-b-10" data-validate = "Passworddata is required">
+        <input class="input100" type="password" name="password" placeholder="Username">
+        <span class="focus-input100"></span>
+        <span class="symbol-input100">
+            <i class="fa fa-lock"></i>
+        </span>
+    </div>
 <?php } elseif ($status == true) { ?>
     <div class="scan">
         <div style="font-size:16px;font-weight:bold">Log in with your fingerprint scanner.</div>
