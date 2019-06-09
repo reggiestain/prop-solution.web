@@ -151,7 +151,8 @@ class UsersController extends AppController {
             $this->Flash->error(__('Invalid email or password.'));
             $this->set('title', 'Login');
         }
-       $this->viewBuilder()->layout('login');
+        $this->set('user',$this->UsersTable->newEntity());
+        $this->viewBuilder()->layout('login');
     }
 
     public function appsignup() {
@@ -179,16 +180,14 @@ class UsersController extends AppController {
         if ($this->request->is('post')) {
             $UserEmail = $this->UsersTable->find()->where(['email' => $this->request->data('email')])->first();
             if (!empty($UserEmail->email)) {
-                $this->set('exist', 'appregistered');
+                $this->set('status', 'appregistered');
             } else {
                 $UserData = $this->UsersTable->newEntity();
-                $Udata = ['email' => $this->request->data('email'), 'password' => $this->request->data('password'),
-                    'confirm_pass' => $this->request->data('confirm_pass'), 'group' => 'admin'];
-                $User = $this->UsersTable->patchEntity($UserData, $Udata);
+                $User = $this->UsersTable->patchEntity($UserData,$this->request->data);
                 if ($this->UsersTable->save($User)) {
-                    $this->set('true', 'successfull');
+                    $this->set('status', 'successfull');
                 } else {
-                    $this->set('false', 'failed');
+                    $this->set('status', $User->errors());
                 }
             }
             $this->set('title', 'Sign Up');
@@ -311,7 +310,6 @@ class UsersController extends AppController {
                 return $this->redirect(['action' => 'properties']);
             }
         }
-
         $this->set('prop', $prop);
         $this->viewBuilder()->layout('dashboard');
     }

@@ -22,17 +22,21 @@ use Cake\Network\Exception\NotFoundException;
 
 <?php
 
-if($exist === 'appregistered'){
-  echo 'alreadyregistered';  
+if($status === 'appregistered'){
+  echo'<div class="alert alert-warning"><a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a>'
+    . 'This email address has already been registered, please enter a different email address.</div>';
 }
-if($true === 'successfull'){
-   echo '<div class="alert alert-success"><strong>Success!</strong> Your account has been created successfully! Please check your email for activation. '
+if($status === 'successfull'){
+   echo '<div class="alert alert-success"><a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a>'
+      . '<strong>Success!</strong> Your account has been created successfully! Please check your email for activation. '
       . 'If you do not receive an activation email, please check your spam/junk folder or contact us at support@propsolution.co.za .</div>'; 
 }
-if($false === 'failed'){
-   echo '<div class="alert alert-danger"><strong>Error!</strong> An error occured please, try again.</div>';  
+if(is_array($status)){
+   echo '<div class="alert alert-danger"><a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a>'
+      . '<strong>Error! </strong>'.$status['confirm_pass']['no-misspelling'].'</div>';  
 }
-if($exist === 'registered'){
-    echo'<div class="alert alert-warning">This email address has already been registered, please enter a different email address.</div>';
+if($status === 'registered'){
+    echo'<div class="alert alert-warning"><a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a>'
+    . 'This email address has already been registered, please enter a different email address.</div>';
 }
 ?>

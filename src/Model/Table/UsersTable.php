@@ -50,12 +50,8 @@ class UsersTable extends Table {
         
         $validator->add('email', 'valid-email', ['rule' => 'email'])
                 ->notEmpty('password', 'A password is required')
-                ->notEmpty('status', 'A password is required')
-                ->add('role', 'notEmpty', [
-                    'rule' => 'notEmpty',
-                    'message' => __('Please select user type')
-                ])
-                ->add('confirm_password', 'no-misspelling', [
+                ->notEmpty('confirm_password', 'A password is required')
+                ->add('confirm_pass', 'no-misspelling', [
                     'rule' => ['compareWith', 'password'],
                     'message' => 'Passwords are not equal',
         ]);

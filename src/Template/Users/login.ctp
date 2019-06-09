@@ -124,12 +124,21 @@ use Cake\Network\Exception\NotFoundException;
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <form id="register" action="<?php echo \Cake\Routing\Router::Url('/users/signup');?>">
+                
+                <?php echo $this->Form->create($user,['url' => ['action' => 'signup'],'id'=>'register']);?>
                 <div class="modal-body">
-                    <p>
+                    <p class="reg-alert">
                         Start your free trial now! No credit card required. 
                         Enter your email address and create a password below. You will receive and email confirmation.    
-                    </p>                    
+                    </p>  
+                    <div class="form-group">
+                            <label>Enter your name</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" name="name" required>
+                    </div>
+                        <div class="form-group">
+                            <label>Enter your surname</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" name="surname" required>
+                        </div>
                         <div class="form-group">
                             <label>Enter your email address (This will be your username)</label>
                             <input type="email" class="form-control" id="formGroupExampleInput" name="email" required>
@@ -166,9 +175,7 @@ use Cake\Network\Exception\NotFoundException;
                     <h4 class="modal-title">Alert</h4>
                 </div>
                 <div class="modal-body">
-                    <div class="reg-alert">
-                        
-                    </div>
+                   
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -196,7 +203,7 @@ use Cake\Network\Exception\NotFoundException;
 
         $(document).on('submit', '#register', function (event) {
             event.preventDefault();
-            $('#myModal').modal('toggle');
+            $('#myModal').modal();
             var formData = $("#register").serialize();
             var url = $("#register").attr("action");
             $.ajax({
@@ -207,7 +214,6 @@ use Cake\Network\Exception\NotFoundException;
                 success: function (data, textStatus, jqXHR)
                 {
                     $(".reg-alert").html(data);
-                    $("#myModal1").modal();
                 },
                 error: function (jqXHR, textStatus, errorThrown)
                 {
