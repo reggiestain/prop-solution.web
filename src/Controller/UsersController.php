@@ -209,7 +209,7 @@ class UsersController extends AppController {
     }
 
     public function properties() {
-        $props = $this->PropertyTable->find()->where(['property.user_id' => $this->Auth->user('id')])->contain(['Province', 'Managers']);
+        $props = $this->PropertyTable->find()->where(['property.user_id' => $this->Auth->user('id')])->contain(['Province', 'Managers','PropType']);
         $province = $this->ProvinceTable->find('list');
         $propTypes = $this->PropTypeTable->find('list');
         $profile = $this->ManagersTable->find('list', ['valueField' => ['full_name']]);
@@ -226,7 +226,7 @@ class UsersController extends AppController {
 
     public function edit_property($id) {
         if ($this->request->is('ajax')) {
-            $propInfo = $this->PropertyTable->get($id, ['contain' => ['Province','Managers']]);
+            $propInfo = $this->PropertyTable->get($id, ['contain' => ['Province','Managers','PropType']]);
             $province = $this->ProvinceTable->find('list');
             $profile = $this->ManagersTable->find('list', ['valueField' => ['full_name']]);
             $propTypes = $this->PropTypeTable->find('list');
@@ -299,7 +299,7 @@ class UsersController extends AppController {
         $this->viewBuilder()->layout(false);
     }
 
-    public function appadd_prop() {
+    public function add_prop() {
         $prop = $this->PropertyTable->newEntity();
         if ($this->request->is('post')) {
             $propData = $this->PropertyTable->patchEntity($prop, $this->request->data);

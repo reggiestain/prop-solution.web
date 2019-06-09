@@ -55,6 +55,12 @@ class PropertyTable extends Table {
             'joinType' => 'INNER'
             
         ]); 
+        
+        $this->belongsTo('PropType', [
+            'foreignKey' => 'prop_type_id',
+            'joinType' => 'INNER'
+            
+        ]); 
          
     }
 

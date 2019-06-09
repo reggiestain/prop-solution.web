@@ -105,7 +105,7 @@ use Cake\Network\Exception\NotFoundException;
                 </div>
                 <div class="row">
                     <div class="form-group col-lg-5">
-                        <label for="formGroupExampleInput">Street Number </label>
+                        <label for="">Street Number </label>
                         <input type="text" class="form-control" id="formGroupExampleInput" name="street_number" required>
                     </div>
                     <div class="form-group col-lg-7">
@@ -210,7 +210,7 @@ use Cake\Network\Exception\NotFoundException;
                     <div class="col-lg-6">    
                         <div class="input-group">
                                 <?php
-                                echo $this->Form->select('profile_id',$profile,['empty'=>'--Choose One--','class'=>'form-control','required']);    
+                                echo $this->Form->select('manager_id',$profile,['empty'=>'--Choose One--','class'=>'form-control','required']);    
                                 ?>   
                         </div>
                     </div>   
