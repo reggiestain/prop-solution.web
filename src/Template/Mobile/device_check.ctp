@@ -20,7 +20,7 @@ use Cake\Error\Debugger;
 use Cake\Network\Exception\NotFoundException;
 ?>
 <?php if ($status == false) { ?>
-    <div class="wrap-input100 validate-input m-b-10" data-validate = "Usernamedata is required">
+    <!--<div class="wrap-input100 validate-input m-b-10" data-validate = "Usernamedata is required">
         <input class="input100" type="text" name="email" placeholder="Username">
         <span class="focus-input100"></span>
         <span class="symbol-input100">
@@ -33,6 +33,11 @@ use Cake\Network\Exception\NotFoundException;
         <span class="symbol-input100">
             <i class="fa fa-lock"></i>
         </span>
+    </div>-->
+    <div class="container-login100-form-btn p-t-10">
+        <button type="button" class="login100-form-btn print">
+            Create Account
+        </button>
     </div>
 <?php } elseif ($status == true) { ?>
     <div class="scan">

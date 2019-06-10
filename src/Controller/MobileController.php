@@ -65,8 +65,7 @@ class MobileController extends AppController{
     }
     
     public function device_check($deviceId) {
-        $user = $this->UsersTable->find()->where(['deviceID' => $deviceId])->first();    
-        
+        $user = $this->UsersTable->find()->where(['deviceID' => $deviceId])->first();           
         if($user === NULL){
            $status = false; 
         } else{       
