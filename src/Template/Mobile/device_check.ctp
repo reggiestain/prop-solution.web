@@ -35,7 +35,7 @@ use Cake\Network\Exception\NotFoundException;
         </span>
     </div>-->
     <div class="container-login100-form-btn p-t-10">
-        <button type="button" class="login100-form-btn print">
+        <button type="button" id="create-acc" class="login100-form-btn">
             Create Account
         </button>
     </div>
