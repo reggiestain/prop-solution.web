@@ -37,65 +37,12 @@ use Cake\View\Helper\RssHelper;
  */
 class UsersController extends AppController {
 
-    /**
-     * Displays a view
-     *
-     * @return void|\Cake\Network\Response
-     * @throws \Cake\Network\Exception\NotFoundException When the view file could not
-     *   be found or \Cake\View\Exception\MissingTemplateException in debug mode.
-     * 
-     */
-    public $UsersTable;
-    public $ProfilesTable;
-    public $RolesTable;
-    public $AttachmentsTable;
-    public $ProvincesTable;
-    public $CompaniesTable;
-    public $TitlesTable;
-    public $UserPhotosTable;
-    public $AuditLogsTable;
-    public $ProvinceTable;
-    public $PaymentsTable;
-    public $PropertyTable;
-    public $LedgerTable;
-    public $BanksTable;
-    public $VendorsTable;
-    public $MaintenanceTable;
-    public $TenantsTable;
-    public $ManagersTable;
-    public $CompliantsTable;
-    public $CompCommentsTable;
-    public $CityTable;
-    public $VendorCityTable;
-    public $VendorMaintenanceTable;
-    public $Datetime;
-
     public function beforeFilter(\Cake\Event\Event $event) {
         parent::beforeFilter($event);
 
-        $this->UsersTable = TableRegistry::get('users');
-        $this->ProfilesTable = TableRegistry::get('profiles');
-        $this->DRequestsTable = TableRegistry::get('requests');
-        $this->PropertyTable = TableRegistry::get('property');
-        $this->ProvinceTable = TableRegistry::get('province');
-        $this->LedgerTable = TableRegistry::get('ledger');
-        $this->BanksTable = TableRegistry::get('banks');
-        $this->VendorsTable = TableRegistry::get('vendors');
-        $this->MaintenanceTable = TableRegistry::get('maintenance');
-        $this->TenantsTable = TableRegistry::get('tenants');
-        $this->ManagersTable = TableRegistry::get('managers');
-        $this->CompliantsTable = TableRegistry::get('complaints');
-        $this->CompCommentsTable = TableRegistry::get('complaint_comments');
-        $this->CityTable = TableRegistry::get('city');
-        $this->VendorCityTable = TableRegistry::get('vendor_city');
-        $this->VendorMaintenanceTable = TableRegistry::get('vendor_maintenance');
-        $this->PropTypeTable = TableRegistry::get('prop_type');
-
         $this->Auth->allow(['index', 'applogin', 'appsignup', 'login', 'signup', 'logout']);
 
-        if ($this->Auth->user('id')) {
-            $this->set('user', $this->UsersTable->get($this->Auth->user('id')));
-        }
+       
     }
 
     public function index() {
@@ -141,10 +88,10 @@ class UsersController extends AppController {
                     $this->Flash->error(__('This account has been blocked, please contact Admin for assistance.'));
                     return $this->redirect(['action' => 'login']);
                 }
-                if ($this->Auth->user('group') === 'admin') {
+                if ($this->Auth->user('role') === 'admin') {
                     $this->Flash->success(__('Welcome , ' . $this->Auth->user('email')));
                     return $this->redirect(['action' => 'dashboard']);
-                } else if ($this->Auth->user('group') === 'super') {
+                } else if ($this->Auth->user('role') === 'super') {
                     return $this->redirect(['action' => 'admin_dashboard']);
                 }
             }

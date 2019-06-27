@@ -47,8 +47,8 @@ Router::scope('/', function ($routes) {
      * its action called 'display', and we pass a param to select the view file
      * to use (in this case, src/Template/Pages/home.ctp)...
      */
-    $routes->extensions(['json', 'xml', 'ajax']);
-    $routes->connect('/tenant/phoneID', ['controller' => 'Mobile', 'action' => 'login', 'allowWithoutToken' => true]);
+    //$routes->extensions(['json', 'xml', 'ajax']);
+    //$routes->connect('/tenant/phoneID', ['controller' => 'Mobile', 'action' => 'login', 'allowWithoutToken' => true]);
     $routes->connect('/', ['controller' => 'Users', 'action' => 'login']);
 
     /**
